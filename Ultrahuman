@@ -6,7 +6,7 @@ obj =  {
   "subscriber": {
     "entitlements": {
       "Premium": {
-        "expires_date": "2023-08-05T12:41:04Z",
+        "expires_date": "2099-08-05T12:41:04Z",
         "grace_period_expires_date": null,
         "product_identifier": "com.ultrahuman.ios.yearly",
         "purchase_date": "2022-07-29T12:41:04Z"
@@ -23,7 +23,7 @@ obj =  {
     "subscriptions": {
       "com.ultrahuman.ios.yearly": {
         "billing_issues_detected_at": null,
-        "expires_date": "2023-08-05T12:41:04Z",
+        "expires_date": "2099-08-05T12:41:04Z",
         "grace_period_expires_date": null,
         "is_sandbox": false,
         "original_purchase_date": "2022-07-29T12:41:05Z",
