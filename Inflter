@@ -1,0 +1,39 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "request_date": "2022-07-30T22:40:49Z",
+  "request_date_ms": 1659220849731,
+  "subscriber": {
+    "entitlements": {
+      "com.Yooshr.infltr.subscriptionPremium": {
+        "expires_date": "2022-08-02T22:40:45Z",
+        "grace_period_expires_date": null,
+        "product_identifier": "com.Yooshr.infltr.subscriptionPremium.Yearly",
+        "purchase_date": "2022-07-30T22:40:45Z"
+      }
+    },
+    "first_seen": "2022-07-30T22:40:21Z",
+    "last_seen": "2022-07-30T22:40:21Z",
+    "management_url": "https://apps.apple.com/account/subscriptions",
+    "non_subscriptions": {},
+    "original_app_user_id": "$RCAnonymousID:371602c44e654540bc77ea7b2a9961cf",
+    "original_application_version": "2691",
+    "original_purchase_date": "2022-07-30T22:38:33Z",
+    "other_purchases": {},
+    "subscriptions": {
+      "com.Yooshr.infltr.subscriptionPremium.Yearly": {
+        "billing_issues_detected_at": null,
+        "expires_date": "2022-08-02T22:40:45Z",
+        "grace_period_expires_date": null,
+        "is_sandbox": false,
+        "original_purchase_date": "2022-07-30T22:40:46Z",
+        "ownership_type": "PURCHASED",
+        "period_type": "trial",
+        "purchase_date": "2022-07-30T22:40:45Z",
+        "store": "app_store",
+        "unsubscribe_detected_at": null
+      }
+    }
+  }
+}
+$done({body: JSON.stringify(obj)});
