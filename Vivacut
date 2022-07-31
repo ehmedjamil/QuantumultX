@@ -15,7 +15,7 @@ obj =  {
         "autoRenewProductId": "VivaCut_Yearly_Pro_4",
         "autoRenewStatus": true,
         "endTime": 1690823349,
-        "isTrialPeriod": false,
+        "isTrialPeriod": true,
         "orderId": "450001180369547",
         "orderStatus": 1,
         "originalOrderId": "450001180369547",
