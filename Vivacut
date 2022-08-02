@@ -1,6 +1,6 @@
 var obj = JSON.parse($response.body);
 
-obj =  {
+obj ={
   "code": 200,
   "data": {
     "hasFreedTrialProds": [
@@ -12,20 +12,19 @@ obj =  {
     ],
     "list": [
       {
-        "autoRenewProductId": "VivaCut_Yearly_Pro_4",
-        "autoRenewStatus": true,
-        "endTime": 1685380149,
+        "autoRenewStatus": false,
+        "endTime": 1659483189000,
         "isTrialPeriod": false,
         "orderId": "450001180369547",
         "orderStatus": 1,
         "originalOrderId": "450001180369547",
         "productId": "VivaCut_Yearly_Pro_4",
         "productType": 3,
-        "sign": "d92a8999b2c4f2e3d7f175c1e4cb6dd2",
+        "sign": "d20cb7d4031df388c344aae0ff4cd233",
         "startTime": 1659223989000
       }
     ],
-    "systemDate": 1659224000905
+    "systemDate": 1659454683568
   },
   "message": "successful",
   "success": true
