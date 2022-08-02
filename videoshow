@@ -1,29 +1,24 @@
 var obj = JSON.parse($response.body);
 
-obj =  {
-  "ordinaryForever": "VideoShow_Product_id31",
-  "newuserPromotionYear": "vip_privilege_yearly_newuser_3",
-  "trialCancelOne": "",
-  "subscribeCancelTwo": "",
-  "ordinaryYear": "vip_privilege_yearly_3",
-  "newuserPromotionForever": "",
-  "newuserPromotionMonth": "",
-  "acePromotion": "",
-  "guideType": 3,
-  "isShowdiscount": 0,
-  "retCode": 1,
+obj ={
+  "transaction_id": "450001182686183",
+  "msg": "验证成功",
+  "isRepeatBind": "0",
+  "isBlacklist": "0",
+  "original_transaction_id": "450001182686183",
+  "is_in_intro_offer_period": "false",
+  "isReportPrice": "0",
+  "expires_date": "2022-08-05 18:42:40 Etc/GMT",
+  "is_trial_period": "true",
+  "promotional_offer_id": "",
+  "retCode": "1",
   "retMsg": "success",
-  "ordinaryWeek": "",
-  "trialCancelTwo": "",
-  "subscribeCancelOne": "",
-  "ordinaryMonth": "vip_privilege_monthly_3",
-  "subscribeRetention": "vip_privilege_monthly_3",
-  "recallPromotionForever": "VideoShow_Product_id31",
-  "historySubscribeCancelOne": "",
-  "subscribeConfigCacheCode": "99",
-  "subscribe_config_status": 1,
-  "newuserPromotionWeek": "",
-  "historySubscribeCancelTwo": "",
-  "isShowtrial": 1
+  "cancellation_date": "",
+  "subscrib_type": "2",
+  "current_date": "2022-08-02 18:51:24",
+  "isUsedPromocode": "0",
+  "product_id": "vip_privilege_yearly_newuser_3",
+  "purchase_date": "2022-08-02 18:42:40 Etc/GMT",
+  "status": "0"
 }
 $done({body: JSON.stringify(obj)});
