@@ -1,0 +1,22 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "code": 1,
+  "msg": "success",
+  "data": [
+    {
+      "active": true,
+      "billing_date_ms": 1660002227000,
+      "enanled_auto_renew": true,
+      "expires_date_ms": 1660002227000,
+      "is_free_trial": true,
+      "is_gift_subscription": false,
+      "original_purchase_date_ms": 1659397428000,
+      "platform": "iOS",
+      "product_identifier": "Product_Auto_Renew_Annual_2022_05_13",
+      "start_date_ms": 1659397427000,
+      "status": 1
+    }
+  ]
+}
+$done({body: JSON.stringify(obj)});
