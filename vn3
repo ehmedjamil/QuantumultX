@@ -1,0 +1,13 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "msg" : "success",
+  "data" : [
+    {
+      "group_identifier" : "20936308",
+      "is_trialed" : true
+    }
+  ],
+  "code" : 1
+}
+$done({body: JSON.stringify(obj)});
