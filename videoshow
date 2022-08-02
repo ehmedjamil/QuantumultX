@@ -1,0 +1,29 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "ordinaryForever": "VideoShow_Product_id31",
+  "newuserPromotionYear": "vip_privilege_yearly_newuser_3",
+  "trialCancelOne": "",
+  "subscribeCancelTwo": "",
+  "ordinaryYear": "vip_privilege_yearly_3",
+  "newuserPromotionForever": "",
+  "newuserPromotionMonth": "",
+  "acePromotion": "",
+  "guideType": 3,
+  "isShowdiscount": 0,
+  "retCode": 1,
+  "retMsg": "success",
+  "ordinaryWeek": "",
+  "trialCancelTwo": "",
+  "subscribeCancelOne": "",
+  "ordinaryMonth": "vip_privilege_monthly_3",
+  "subscribeRetention": "vip_privilege_monthly_3",
+  "recallPromotionForever": "VideoShow_Product_id31",
+  "historySubscribeCancelOne": "",
+  "subscribeConfigCacheCode": "99",
+  "subscribe_config_status": 1,
+  "newuserPromotionWeek": "",
+  "historySubscribeCancelTwo": "",
+  "isShowtrial": 1
+}
+$done({body: JSON.stringify(obj)});
