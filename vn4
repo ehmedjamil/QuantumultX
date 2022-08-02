@@ -1,0 +1,21 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "msg" : "success",
+  "data" : [
+    {
+      "group_identifier" : "20936308",
+      "identifier" : "Product_Auto_Renew_Month_2022_05_13",
+      "type" : "auto_renewable_subscriptions",
+      "sku" : "Product_Auto_Renew_Month_2022_05_13"
+    },
+    {
+      "group_identifier" : "20936308",
+      "identifier" : "Product_Auto_Renew_Annual_2022_05_13",
+      "type" : "auto_renewable_subscriptions",
+      "sku" : "Product_Auto_Renew_Annual_2022_05_13"
+    }
+  ],
+  "code" : 1
+}
+$done({body: JSON.stringify(obj)});
