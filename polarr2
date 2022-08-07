@@ -1,0 +1,9 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "correlationId": "748A5400-1521-11ED-B927-91D7FE192DAD",
+  "path": "/v1/payments/appleiap/receipts/confirmation",
+  "statusCode": 400,
+  "timestamp": "2022-08-06T00:48:15.352Z",
+  "message": "Bad Request"
+$done({body: JSON.stringify(obj)});
