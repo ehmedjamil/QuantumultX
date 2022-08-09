@@ -1,0 +1,3205 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "transactions" : {
+    "450001187658280" : {
+      "error_code" : null,
+      "product_id" : "com.path36.SpliceFree.1y_t150_2w"
+    }
+  },
+  "me" : {
+    "terms_of_service" : {
+      "last_accepted_version" : "1.4.0"
+    },
+    "non_consumables_ids" : [
+
+    ],
+    "is_spooner" : false,
+    "active_subscriptions_ids" : [
+      "com.path36.SpliceFree.1y_t150_2w"
+    ],
+    "privacy_notice" : {
+      "required_consents" : [
+
+      ],
+      "is_at_least_16" : "unknown",
+      "last_acknowledged_version" : "3.2.0"
+    },
+    "unique_id" : "3A366EAB-C0ED-49A0-B3C7-7C25B0EBCEBA"
+  },
+  "settings" : {
+    "subscription_index" : 10,
+    "text_templates_enabled" : false,
+    "feature_pitch_paywall_enabled" : false,
+    "watermark_subscription_index_2" : 4,
+    "intro_paywall_kind_3" : "checkbox",
+    "monetization--new_project_tapped_trigger--variant_2--styles" : [
+      "comparison"
+    ],
+    "project_setup--music_section--subtitle" : [
+      {
+        "copy" : "6000+ tracks for you project. All included in Splice Pro subscription.",
+        "language" : "en"
+      }
+    ],
+    "monetization--default--should_show_faq" : false,
+    "monetization--project_tapped_trigger--variant_1--style" : "comparison",
+    "in_app_survey_experiments" : [
+
+    ],
+    "libraries_url" : "https://bendingspoons.com/open_source_libraries.html?app=409838725",
+    "watermark_subscription_id_secondary" : "com.path36.SpliceFree.1w_t6_1w",
+    "speed_effects_enabled" : true,
+    "attribution_survey_position" : "after_intro_paywall",
+    "monetization--configuration--pro_video_qualities" : [
+
+    ],
+    "speed_editor_tutorial_url" : "https://support.spliceapp.com/hc/en-gb/articles/4421733194897-Video-Tutorial-How-do-I-create-a-slow-motion-or-speed-up-effect-",
+    "feature_pitch_paywall_max_per_session" : 1,
+    "available_filters_ids" : [
+      [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06"
+      ],
+      [
+        "B07",
+        "B08",
+        "V02",
+        "V06",
+        "V08"
+      ],
+      [
+        "B09",
+        "B10",
+        "B11",
+        "B12",
+        "B13"
+      ],
+      [
+        "V01",
+        "V03",
+        "V04",
+        "V05",
+        "V07"
+      ],
+      [
+        "V09",
+        "V10",
+        "V11",
+        "V12",
+        "V13",
+        "V14"
+      ],
+      [
+        "VW01",
+        "VW02",
+        "VW03",
+        "VW05",
+        "VW06",
+        "VW07"
+      ],
+      [
+        "BW02",
+        "BW03",
+        "BW05",
+        "BW06",
+        "BW07",
+        "BW08"
+      ],
+      [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05"
+      ],
+      [
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      [
+        "BW04",
+        "B14",
+        "B15",
+        "C02",
+        "H07",
+        "H08"
+      ],
+      [
+        "C01",
+        "C03",
+        "C04",
+        "C06",
+        "C07"
+      ],
+      [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      [
+        "H01",
+        "H02",
+        "H03",
+        "H05",
+        "H06"
+      ],
+      [
+        "Z01",
+        "Z02",
+        "Z03",
+        "VW04",
+        "BW01"
+      ]
+    ],
+    "snapchat_attachment_url" : "https://spliceapp.com/snapchat-sticker",
+    "intro_paywall_kind" : "calm",
+    "monetization--onboarding_survey_ended_trigger--style" : "null",
+    "monetization--deep_link_trigger--offer_style--subscriptions" : [
+      "com.path36.SpliceFree.1w_t4_1w"
+    ],
+    "onboarding_survey_skip_policy" : "skippable",
+    "monetization--project_list_presented_trigger--checkbox_style--free_trial_cta" : [
+      {
+        "copy" : "Try free and subscribe",
+        "language" : "en"
+      },
+      {
+        "copy" : "Kostenlos testen und abonnieren",
+        "language" : "de"
+      },
+      {
+        "copy" : "Faites un essai gratuit et abonnez-vous",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Prova gratis e iscriviti",
+        "language" : "it"
+      },
+      {
+        "copy" : "Prueba gratis y suscríbete",
+        "language" : "es"
+      },
+      {
+        "copy" : "無料で試して登録",
+        "language" : "ja"
+      },
+      {
+        "copy" : "무료 체험하고 구독하세요",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Teste grátis e assine",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Попробуйте бесплатно и подпишитесь",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Ücretsiz deneyin ve abone olun",
+        "language" : "tr"
+      },
+      {
+        "copy" : "免费试用并订阅",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "免費試用，再訂閱",
+        "language" : "zh-hant"
+      }
+    ],
+    "monetization--default--informative_checkbox_style--no_free_trial_title" : [
+      {
+        "copy" : "Get unlimited access to all of Splice's features, and start making video edits like the pros for only %1$@.\rNo experience needed.",
+        "language" : "en"
+      }
+    ],
+    "splice_awards_edition" : 0,
+    "tooltips_enabled" : false,
+    "monetization--default--informative_checkbox_style--subscriptions_pair" : [
+      "com.path36.SpliceFree.1w_t6",
+      "com.path36.SpliceFree.1w_t6_2w"
+    ],
+    "missing_space_errors" : [
+      {
+        "domain" : "AVFoundationErrorDomain",
+        "code" : -11807
+      },
+      {
+        "domain" : "PHPhotosErrorDomain",
+        "code" : -1
+      },
+      {
+        "domain" : "PHPhotosErrorDomain",
+        "code" : 3305
+      }
+    ],
+    "intro_subscription_index" : 0,
+    "monetization--default--is_free_trial_enabled_by_default" : false,
+    "upload_full_projects" : true,
+    "splice_awards_headline_copy" : [
+      {
+        "copy" : "Shoot. Share. Score prizes!",
+        "language" : "en"
+      }
+    ],
+    "caption_smart_default_enabled" : true,
+    "monetization--promoted_product_trigger--style" : "calm",
+    "__experiments__" : {
+      "block_high_resolution_export" : 0,
+      "reengagement_push_permission_new" : 1,
+      "template_mvp_new_users" : 1,
+      "reengagement_email_collection_new" : 0,
+      "skip_media_selection_2" : 1,
+      "super_slow_motion" : 0,
+      "intermediary_welcome_offer" : 7,
+      "text_size_and_line_break_new_users" : 2,
+      "Higher_price_comparison" : 2,
+      "scalable_panels_text_and_filters" : 1,
+      "Higher_price_checkbox" : 3,
+      "primary_toolbar_categories" : 0,
+      "skip_pro_banner" : 0,
+      "cards_media_comparison" : 1
+    },
+    "effect_added_at_playhead" : true,
+    "apply_to_all_enabled" : true,
+    "monetization--default--checkbox_style--subscriptions_pairs" : [
+      [
+        "com.path36.SpliceFree.1w_t6",
+        "com.path36.SpliceFree.1w_t6_1w"
+      ],
+      [
+        "com.path36.SpliceFree.1m_t20",
+        "com.path36.SpliceFree.1m_t20_1w"
+      ],
+      [
+        "com.path36.SpliceFree.1y_t100",
+        "com.path36.SpliceFree.1y_t100_1w"
+      ]
+    ],
+    "intro_subscription_index_3_checkbox" : 0,
+    "guided_tour_popup_delay" : 0,
+    "monetization--deep_link_trigger--variant_3--offer_style--subtitle_copy" : [
+      {
+        "copy" : "Passa a Splice PRO",
+        "language" : "it"
+      }
+    ],
+    "monetization--new_project_tapped_trigger--variant_2" : "first_session == false && eligible_for_free_trial == true",
+    "monetization--export_tapped_trigger--style" : "null",
+    "tiktok_hashtag" : "\"\"",
+    "monetization--deep_link_trigger--styles" : [
+
+    ],
+    "monetization--project_list_presented_trigger--variant_1--comparison_style--subscriptions" : [
+      "com.path36.SpliceFree.1y_t100",
+      "com.path36.SpliceFree.1m_t20",
+      "com.path36.SpliceFree.1w_t6"
+    ],
+    "multiplier_estimated_export_duration_for_log_export_blocked" : 4,
+    "snapchat_sticker_position_y" : 0.80000000000000004,
+    "snapchat_is_sticker_enabled" : true,
+    "monetization--default--discount_style--title_copy" : [
+      {
+        "copy" : "New on Splice?\n50% discount for you.",
+        "language" : "en"
+      }
+    ],
+    "itunes_import_enabled" : true,
+    "intro_subscription_index_checkbox" : 1,
+    "paywall_close_button_on_the_right" : true,
+    "monetization--project_list_presented_trigger--checkbox_style--subscriptions_pairs" : [
+      [
+        "com.path36.SpliceFree.1w_t10",
+        "com.path36.SpliceFree.1w_t10_2w"
+      ]
+    ],
+    "comparison_motivating_free_trial" : 1,
+    "template_projects_ids" : [
+      "bauke_creator_inspiration",
+      "underwater_creator_inspiration",
+      "norway_creator_inspiration",
+      "fastart_creator_inspiration",
+      "dirtbikes_creator_inspiration"
+    ],
+    "tutorials_social_media_youtube_url" : "https://www.youtube.com/channel/UCe-ypppe3kUjkMGo959uexw",
+    "monetization--default--free_trial_info_position" : "mid",
+    "monetization--default--dismissal_configuration" : "top_close_button",
+    "intro_paywall_close_countdown_duration" : 0,
+    "monetization--promoted_product_trigger--variant_1--style" : "comparison",
+    "hard_trigger_factor" : 1,
+    "resubscription_paywall_kind" : "calm",
+    "monetization--default--media_screen_style--image_id" : "intermediary_static_welcome_offer",
+    "monetization--default--comparison_style--should_show_motivating_copy" : true,
+    "__min_required_build_version__" : "0.0.0",
+    "instagram_story_is_sticker_enabled" : false,
+    "text_templates_randomized" : true,
+    "monetisation-starting-time" : "2019-06-05T00:00:00+00",
+    "onboarding_survey--should_show_intro_screen" : false,
+    "monetization--default--close_button_position" : "top_right",
+    "advanced_share_flow_enabled" : true,
+    "randomize_templates" : false,
+    "select_first_clip_project_opened" : false,
+    "splice_awards_policy_copy" : [
+      {
+        "copy" : "No purchase necessary. The Awards ends on March 19, 2021 at 11:59:59pm EST. You need to be U.S. resident; 13+. Check out the <style:link>full rules</style:link>. Apple is not a sponsor or involved in the activity in any manner.",
+        "language" : "en"
+      }
+    ],
+    "__encryption_public_key__" : "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6WMNkl4avAdHhYGc20hq\n8DcVtWanEtvuzM7g80Pe8Tv+eyrGyO1+XrgOUu7FRW2TFAl1q1r+3Uls0Y4Xyevi\n1F52DlSrKUJ84fpHIlhMhG8fGKTtAEOZ/CeSj4eUIjGqZe79/BAsEs1A5TZEKdlw\n24oeuMklhCeJ09Im/cU5FQJ18f6Ew8Dqmp7lLKsXoUA8hhBAPbcN7cb4cX6pvNWC\n+alZ9yX2sm4gs3cqjHPsLIEptJkaR469ZcSxqbBNtduS+DMRyhVD+M9ekjdv6aaE\nmRuFumWRtLtGvL9QfyOvTQPsp4eI/O4iZUH7A/W9L67WiYWDPhyknGd7fjIaEedS\n5wIDAQAB\n-----END PUBLIC KEY-----",
+    "onboarding_survey_position" : "before_intro_paywall",
+    "tabbar_preferred_order" : [
+      "media",
+      "text",
+      "text_templates",
+      "effects",
+      "music",
+      "captions",
+      "overlay",
+      "title",
+      "sfx",
+      "recording"
+    ],
+    "paywall_title_copy" : [
+      {
+        "copy" : "Ready to become a Splicer?",
+        "language" : "en"
+      },
+      {
+        "copy" : "Prêt à devenir un Splicer?",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Sind Sie bereit, ein Splicer zu werden?",
+        "language" : "de"
+      },
+      {
+        "copy" : "Pronto a diventare uno Splicer?",
+        "language" : "it"
+      },
+      {
+        "copy" : "¿Estás listo para convertirte en un Splicer?",
+        "language" : "es"
+      },
+      {
+        "copy" : "スプライスのユーザーになる準備はいいですか？",
+        "language" : "ja"
+      },
+      {
+        "copy" : "스플라이서가 될 준비 되셨나요?",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Gostaria de se tornar um Splicer?",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Готовы стать пользователем Splice?",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Splicer olmaya hazır mısınız?",
+        "language" : "tr"
+      },
+      {
+        "copy" : "准备好做一名Splice达人了吗?",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "準備好要成為一名剪接師了嗎?",
+        "language" : "zh-hant"
+      }
+    ],
+    "monetization--pro_badge_tapped_trigger--variant_1--comparison_style--subscriptions" : [
+      "com.path36.SpliceFree.1y_t100",
+      "com.path36.SpliceFree.1m_t20",
+      "com.path36.SpliceFree.1w_t6"
+    ],
+    "email_collection_cta_copy" : [
+      {
+        "copy" : "Let's keep in touch",
+        "language" : "en"
+      },
+      {
+        "copy" : "Restons en contact",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Lassen Sie uns in Kontakt bleiben",
+        "language" : "de"
+      },
+      {
+        "copy" : "Restiamo in contatto",
+        "language" : "it"
+      },
+      {
+        "copy" : "Mantengámonos en contacto",
+        "language" : "es"
+      },
+      {
+        "copy" : "これからもよろしくお願いします",
+        "language" : "ja"
+      },
+      {
+        "copy" : "유용한 정보를 받아보세요",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Vamos manter contato",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Оставайтесь на связи",
+        "language" : "ru"
+      },
+      {
+        "copy" : "İletişimde kalalım",
+        "language" : "tr"
+      },
+      {
+        "copy" : "让我们保持联系",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "讓我們保持聯絡吧",
+        "language" : "zh-hant"
+      }
+    ],
+    "monetization--project_list_presented_trigger--variant_1" : "first_session == true && eligible_for_free_trial == false",
+    "paywall_position" : "before_project_loading",
+    "paywall_cta_without_free_trial" : [
+      {
+        "copy" : "Subscribe",
+        "language" : "en"
+      },
+      {
+        "copy" : "Abonnieren",
+        "language" : "de"
+      },
+      {
+        "copy" : "S'abonner",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Iscriviti",
+        "language" : "it"
+      },
+      {
+        "copy" : "Suscríbete",
+        "language" : "es"
+      },
+      {
+        "copy" : "サブスクリプション購入",
+        "language" : "ja"
+      },
+      {
+        "copy" : "구독하기",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Inscreva-se",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Подписаться",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Abone ol",
+        "language" : "tr"
+      },
+      {
+        "copy" : "订阅",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "訂閱",
+        "language" : "zh-hant"
+      }
+    ],
+    "watermark_subscription_id" : "com.path36.SpliceFree.1w_t6",
+    "__terms_of_service_version__" : "1.4.0",
+    "monetization--premium_button_tapped_trigger--styles" : [
+      "comparison"
+    ],
+    "idfa_preprompt_title" : "H1",
+    "banner_duration" : 5,
+    "yearly_upgrade_max_times_presented" : 3,
+    "skip_media_selection_enabled" : true,
+    "monetization--project_list_presented_trigger--variant_1--style" : "comparison",
+    "intro_paywall_cta_without_free_trial" : [
+      {
+        "copy" : "Subscribe",
+        "language" : "en"
+      },
+      {
+        "copy" : "Abonnieren",
+        "language" : "de"
+      },
+      {
+        "copy" : "S'abonner",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Iscriviti",
+        "language" : "it"
+      },
+      {
+        "copy" : "Suscríbete",
+        "language" : "es"
+      },
+      {
+        "copy" : "サブスクリプション購入",
+        "language" : "ja"
+      },
+      {
+        "copy" : "구독하기",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Inscreva-se",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Подписаться",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Abone ol",
+        "language" : "tr"
+      },
+      {
+        "copy" : "订阅",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "訂閱",
+        "language" : "zh-hant"
+      }
+    ],
+    "feature_pitch_paywall_pro_feature_content" : {
+
+    },
+    "animated_trim_handles_enabled" : true,
+    "__encryption_algorithm__" : "RSA2048PKCS1",
+    "templates_sharing_enabled" : true,
+    "intro_subscription_id_2" : "com.path36.SpliceFree.1m_t20",
+    "monetization--new_project_tapped_trigger--variant_1--comparison_style--subscriptions" : [
+      "com.path36.SpliceFree.1y_t100",
+      "com.path36.SpliceFree.1m_t20",
+      "com.path36.SpliceFree.1w_t6"
+    ],
+    "monetization--deep_link_trigger--style" : "null",
+    "__privacy_policy_url__" : "https://support.bendingspoons.com/privacy.html?app=409838725&version=3.2.0",
+    "monetize_button_open_internal" : true,
+    "monetization--deep_link_trigger--variant_1--offer_style--subscription" : "com.path36.SpliceFree.1w_t6_2w",
+    "monetization--default--free_trial_info_style" : "no_payment_label_with_icon",
+    "show_classic_music" : false,
+    "monetization--configuration--claim_free_trial_banner" : {
+      "subtitle_copy" : [
+
+      ],
+      "title_copy" : [
+
+      ]
+    },
+    "review_native_prompt_chance" : 0.75,
+    "monetization--default--control_style" : "button",
+    "jwt_apple_music" : "Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik44R1E2N1lSOTUifQ.eyJpYXQiOjE2NDkzMjA4NjAsImV4cCI6MTY2NDg3Mjg2MCwiaXNzIjoiTlREWE1KODdTRiJ9.Phmel4B8sQ-bXzjpMKl9U47DrWWfespz4C59hLf9q_UYWb-Ieb_J6zdSTvIa-ifOnuucXPgYtLtv9uPDNTIj6g",
+    "splice_awards_tags" : "#SpliceVideoContest @spliceapp",
+    "watermark_subscription_id_3_secondary" : "com.path36.SpliceFree.1y_t100_1w",
+    "monetization--project_tapped_trigger--styles" : [
+
+    ],
+    "onboarding_skippable" : false,
+    "monetization--configuration--premium_button_style" : "accent_crown",
+    "monetization--default--no_free_trial_cta" : [
+      {
+        "copy" : "Subscribe",
+        "language" : "en"
+      },
+      {
+        "copy" : "Abonnieren",
+        "language" : "de"
+      },
+      {
+        "copy" : "S'abonner",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Iscriviti",
+        "language" : "it"
+      },
+      {
+        "copy" : "Suscríbete",
+        "language" : "es"
+      },
+      {
+        "copy" : "サブスクリプション購入",
+        "language" : "ja"
+      },
+      {
+        "copy" : "구독하기",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Inscreva-se",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Подписаться",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Abone ol",
+        "language" : "tr"
+      },
+      {
+        "copy" : "订阅",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "訂閱",
+        "language" : "zh-hant"
+      }
+    ],
+    "undo_redo_enabled" : true,
+    "text_style_preview_enabled" : true,
+    "intro_subscription_id" : "com.path36.SpliceFree.1w_t6",
+    "donation_paywall_enabled" : false,
+    "attribution_options" : [
+
+    ],
+    "monetize_button_enabled" : false,
+    "monetization--default--static_comparison_style--discount_copy" : [
+      {
+        "copy" : "[percentage]",
+        "language" : "en"
+      }
+    ],
+    "monetization--project_list_presented_trigger--styles" : [
+
+    ],
+    "monetization--default--informative_checkbox_style--free_trial_subscription_id" : "com.path36.SpliceFree.1w_t6_2w",
+    "monetization--promoted_product_trigger--calm_style--subscriptions" : [
+      "com.path36.SpliceFree.1w_t6_1w"
+    ],
+    "monetization--default--prominent_dismiss_button_text_color" : "#000000",
+    "yearly_popup_intro_enabled" : false,
+    "monetization--default--subtitle_copy" : [
+      {
+        "copy" : "No commitments, cancel anytime.",
+        "language" : "en"
+      },
+      {
+        "copy" : "Aucun engagement, annulez à tout moment.",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Keine Verpflichtungen, jederzeit kündbar.",
+        "language" : "de"
+      },
+      {
+        "copy" : "Nessun impegno, cancella quando vuoi.",
+        "language" : "it"
+      },
+      {
+        "copy" : "Sin compromiso, cancela cuando quieras.",
+        "language" : "es"
+      },
+      {
+        "copy" : "いつでもキャンセルできます。",
+        "language" : "ja"
+      },
+      {
+        "copy" : "약정이 없으며, 언제든지 취소 가능합니다.",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Sem compromissos, cancele quando quiser.",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Никаких обязательств, отмена в любое время.",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Taahhüt yok, istediğiniz zaman iptal edin.",
+        "language" : "tr"
+      },
+      {
+        "copy" : "无需承诺，可随时取消",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "無需承諾，可隨時取消。",
+        "language" : "zh-hant"
+      }
+    ],
+    "donation_paywall_asset" : "static_donation",
+    "clip_long_press_enabled" : true,
+    "email_collection_title_copy" : [
+      {
+        "copy" : "Stay ahead of video editing trends",
+        "language" : "en"
+      },
+      {
+        "copy" : "Gardez une longueur d'avance sur les tendances du montage vidéo",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Sei den Videobearbeitungstrends immer einen Schritt voraus",
+        "language" : "de"
+      },
+      {
+        "copy" : "Resta al passo con le tendenze del video editing",
+        "language" : "it"
+      },
+      {
+        "copy" : "Mantente a la vanguardia de las tendencias de edición de video",
+        "language" : "es"
+      },
+      {
+        "copy" : "ビデオ編集のトレンドを先取りし続けましょう",
+        "language" : "ja"
+      },
+      {
+        "copy" : "트렌드를 앞서나가는 동영상 편집 기법을 배우세요",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Fique à frente das tendências de edição de vídeos",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Будьте в курсе всех тенденций в сфере видеомонтажа",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Video düzenleme trendlerini yakalayın",
+        "language" : "tr"
+      },
+      {
+        "copy" : "走在视频编辑潮流的前列",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "在影片編輯潮流中保持領先地位",
+        "language" : "zh-hant"
+      }
+    ],
+    "churner_notification_title" : [
+      {
+        "copy" : "You can use Splice for free!",
+        "language" : "en"
+      }
+    ],
+    "monetization--default--informative_checkbox_style--image_id" : "null",
+    "social_media_fonts" : [
+      {
+        "font_name" : "SFProDisplay-Heavy",
+        "shorthand" : "Instagram 1"
+      },
+      {
+        "font_name" : "Courier-Bold",
+        "shorthand" : "Instagram 2"
+      },
+      {
+        "font_name" : "AvenirNext-HeavyItalic",
+        "shorthand" : "Instagram 3"
+      },
+      {
+        "font_name" : "ChalkboardSE-Bold",
+        "shorthand" : "Instagram 4"
+      },
+      {
+        "font_name" : "Didot-Italic",
+        "shorthand" : "Instagram 5"
+      },
+      {
+        "font_name" : "HoeflerText-Regular",
+        "shorthand" : "Instagram 6"
+      },
+      {
+        "font_name" : "SourceCodePro-Black",
+        "shorthand" : "TikTok 1"
+      },
+      {
+        "font_name" : "Georgia-Bold",
+        "shorthand" : "TikTok 2"
+      }
+    ],
+    "monetization--configuration--should_export_button_invoke_pro_badge_trigger" : false,
+    "text_size_label_enabled" : true,
+    "likert_modal_delay" : 0,
+    "intro_free_trial_enabled" : true,
+    "project_export--should_use_alternative_presentation" : false,
+    "quid_pro_quo_flow_type" : "short",
+    "attribution_survey_type" : "none",
+    "is_resubscription_paywall_enabled" : true,
+    "splice_awards_subtitle_copy" : [
+      {
+        "copy" : "Join the Splice Awards contest and try to win. Create and share a <style:bold>How to Use</style:bold> Splice tutorial video.",
+        "language" : "en"
+      }
+    ],
+    "subscription_index_2" : 4,
+    "free_trial_checkbox_kind" : "button",
+    "timestamp_improvements_enabled" : true,
+    "monetization--deep_link_trigger--variant_2--style" : "offer",
+    "intro_subscription_index_3" : 0,
+    "popup_session_priority" : [
+
+    ],
+    "watermark_subscription_id_2_secondary" : "com.path36.SpliceFree.1m_t20_1w",
+    "surveys--configuration--user_segmentation_probability" : 1,
+    "monetization--project_tapped_trigger--variant_2--style" : "comparison",
+    "effect_full_panel" : true,
+    "monetization--new_project_tapped_trigger--variant_1--style" : "comparison",
+    "tutorials_social_media_enabled" : false,
+    "monetization--project_tapped_trigger--variant_2--styles" : [
+      "comparison"
+    ],
+    "intro_paywall_cta_with_free_trial" : [
+      {
+        "copy" : "Try free and subscribe",
+        "language" : "en"
+      },
+      {
+        "copy" : "Kostenlos testen und abonnieren",
+        "language" : "de"
+      },
+      {
+        "copy" : "Faites un essai gratuit et abonnez-vous",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Prova gratis e iscriviti",
+        "language" : "it"
+      },
+      {
+        "copy" : "Prueba gratis y suscríbete",
+        "language" : "es"
+      },
+      {
+        "copy" : "無料で試して登録",
+        "language" : "ja"
+      },
+      {
+        "copy" : "무료 체험하고 구독하세요",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Teste grátis e assine",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Попробуйте бесплатно и подпишитесь",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Ücretsiz deneyin ve abone olun",
+        "language" : "tr"
+      },
+      {
+        "copy" : "免费试用并订阅",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "免費試用，再訂閱",
+        "language" : "zh-hant"
+      }
+    ],
+    "likert_modal_position" : "none",
+    "paywall_close_countdown_duration" : 0,
+    "__terms_of_service_url__" : "https://support.bendingspoons.com/tos.html?app=409838725&version=1.4.0",
+    "soft_trigger_factor" : 40,
+    "subscription_id_2" : "com.path36.SpliceFree.1m_t20",
+    "monetization--pro_badge_tapped_trigger--style" : "null",
+    "splice_awards_rules_button_copy" : [
+      {
+        "copy" : "Full rules",
+        "language" : "en"
+      }
+    ],
+    "intro_paywall_kind_2" : "checkbox",
+    "splice_awards_copy_tags" : [
+      {
+        "copy" : "Copy tags",
+        "language" : "en"
+      }
+    ],
+    "text_templates_separated" : false,
+    "onboarding_survey_id" : "target_users_social",
+    "watermark_subscription_selection_kind" : "none",
+    "ripple_stay_in_sync_audio_track_enabled" : false,
+    "monetization--deep_link_trigger--variant_4--styles" : [
+      "offer"
+    ],
+    "onboarding_walkthrough_youtube_tutorials_link" : "",
+    "monetize_button_cta" : [
+
+    ],
+    "yearly_upgrade_activation_percentage" : 0.20000000000000001,
+    "text_animations_buy_more_FDT_enabled" : false,
+    "customer_support_url" : "https://support.spliceapp.com/",
+    "__is_free__" : false,
+    "onboarding_second_session" : "onboarding_second_session",
+    "attribution_survey_options" : [
+
+    ],
+    "monetization--project_list_presented_trigger--variant_2" : "first_session == true && eligible_for_free_trial == true",
+    "effects_enabled" : true,
+    "subscription_index_2_checkbox" : 5,
+    "monetization--default--free_trial_cell_should_show_billed_price" : false,
+    "offer_benefit_kind" : "discount_30",
+    "feedback_forum_enabled" : false,
+    "monetization--promoted_product_trigger--variant_1" : "eligible_for_free_trial == false",
+    "new_permission_flow_enabled" : false,
+    "skip_review_rating" : true,
+    "comparison_price_location" : 1,
+    "comparison_discount_label_type" : "percentage",
+    "add_text_opens_keyboard" : true,
+    "push_permission_position" : "at_media_selection",
+    "max_time_interval_progress_stuck_for_log_export_blocked" : 30,
+    "email_collection_body_copy" : [
+      {
+        "copy" : "Join over 50M+ Splicers and get tips and inspiration to create incredible videos.",
+        "language" : "en"
+      },
+      {
+        "copy" : "Rejoignez plus de 50 millions de Splicers et obtenez des conseils et de l'inspiration pour créer des vidéos incroyables.",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Werden Sie zu einem von über 50 Mio. Splicern und erhalten Sie Tipps und Inspirationen zur Erstellung unglaublicher Videos.",
+        "language" : "de"
+      },
+      {
+        "copy" : "Unisciti a oltre 50 milioni di Splicer e ricevi suggerimenti e ispirazione per creare video incredibili.",
+        "language" : "it"
+      },
+      {
+        "copy" : "Únete a más de 50M+ Splicers y obtén consejos e inspiración para crear videos increíbles.",
+        "language" : "es"
+      },
+      {
+        "copy" : "5千万人以上のSplicerの仲間に加わって、素晴らしいビデオを作るためのヒントやインスピレーションを得ましょう。",
+        "language" : "ja"
+      },
+      {
+        "copy" : "5천만 명 이상의 사용자가 선택한 Splice에 가입하고 멋진 동영상 제작에 필요한 도움말과 영감을 얻으세요.",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Junte-se a mais de 50 milhões de Splicers e receba dicas e inspiração para criar vídeos incríveis.",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Присоединяйтесь к более чем 50 млн пользователей Splice, получайте советы и идеи для создания потрясающих видео.",
+        "language" : "ru"
+      },
+      {
+        "copy" : "50 milyondan fazla Splicer arasına katılın, inanılmaz videolar oluşturmak için ipuçları ve ilham alın.",
+        "language" : "tr"
+      },
+      {
+        "copy" : "加入到5000多万Splice达人的行列，获取技巧和灵感，创制出令人惊叹的视频作品。",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "加入5千萬名Splice達人的行列，取得秘訣並汲取靈感，製作出色影片。",
+        "language" : "zh-hant"
+      }
+    ],
+    "watermark_subscription_id_2" : "com.path36.SpliceFree.1m_t20",
+    "monetization--pro_badge_tapped_trigger--styles" : [
+
+    ],
+    "subscription_index_3_checkboox" : 1,
+    "blinkist_paywall_subtitle_copy" : [
+      {
+        "copy" : "Splice'ı %1$d gün boyunca ücretsiz dene",
+        "language" : "tr"
+      },
+      {
+        "copy" : "%1$d日間Spliceを無料でお試しください",
+        "language" : "ja"
+      },
+      {
+        "copy" : "Teste Splice %1$d Tage lang kostenlos",
+        "language" : "de"
+      },
+      {
+        "copy" : "Пробная версия Splice на %1$d дн.",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Experimente o Splice grátis por %1$d dias",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Try Splice free for %1$d days",
+        "language" : "en"
+      },
+      {
+        "copy" : "Prova Splice gratuitamente per %1$d giorni",
+        "language" : "it"
+      },
+      {
+        "copy" : "免费试用Splice %1$d天",
+        "language" : "zh-Hans"
+      },
+      {
+        "copy" : "Essaie Splice gratuitement pendant %1$d jours",
+        "language" : "fr"
+      },
+      {
+        "copy" : "%1$d일간 Splice 무료 체험",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Prueba Splice gratis por %1$d días",
+        "language" : "es"
+      },
+      {
+        "copy" : "免費試用 Splice %1$d 天",
+        "language" : "zh-Hant"
+      }
+    ],
+    "monetize_button_url" : "https://rc1userl9j3bfjcc7ck2.fra1.qualtrics.com/jfe/form/SV_5d29WmeoMbep9K6",
+    "surveys--configuration--cooldown_days" : 5,
+    "snapchat_sticker_scale" : 0.29999999999999999,
+    "early_paywall_enabled" : true,
+    "intro_subscription_id_3" : "com.path36.SpliceFree.1y_t100",
+    "monetization--new_project_tapped_trigger--variant_2--style" : "comparison",
+    "speech_to_text_max_duration" : 900,
+    "splice_awards_body_copy" : [
+      {
+        "copy" : "Share your tutorial on TikTok or Instagram using <style:hashtag>#SpliceVideoContest</style:hashtag> + <style:hashtag>@spliceapp</style:hashtag> to join the contest.",
+        "language" : "en"
+      }
+    ],
+    "monetization--pro_badge_tapped_trigger--variant_2" : "eligible_for_free_trial == true",
+    "monetization--project_tapped_trigger--variant_1" : "first_session == false && eligible_for_free_trial == false",
+    "pro_feature_button_type" : "normal",
+    "__privacy_policy_version__" : "3.2.0",
+    "text_animations_customization_FDT_enabled" : false,
+    "monetization--default--media_screen_style--should_show_next_paywall_on_close" : true,
+    "paywall_kind_2" : "calm",
+    "randomize_music_tracks" : true,
+    "free_trial_expiry_notification_advance_days" : 2,
+    "monetization--deep_link_trigger--variant_3--offer_style--subscription" : "com.path36.SpliceFree.1w_t6_1w",
+    "banner_behaviour" : "dismissible",
+    "songclip_available_countries" : [
+
+    ],
+    "monetization--deep_link_trigger--variant_4--offer_style--benefit" : "none",
+    "splice_awards_cta_copy" : [
+      {
+        "copy" : "Discover more",
+        "language" : "en"
+      }
+    ],
+    "fonts_recently_used_enabled" : true,
+    "toolbars_buttons_preferred_order" : [
+
+    ],
+    "subscription_selection_default" : 1,
+    "is_monetize_button_prominent" : false,
+    "__identity__" : {
+      "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6ImY1YWVmMWQ0ODg2YjQwZDY4MTIzZTk5OWQ4YWY5ZDljIn0.eyJwYXlsb2FkIjp7ImJhY2tlbmRfaWQiOiIzQTM2NkVBQi1DMEVELTQ5QTAtQjNDNy03QzI1QjBFQkNFQkEiLCJ1c2VyX2lkIjoiMkE2NkZFNzgtODVEMC00MzBDLUE3RDYtRTM3NjQyODQ2RUE2IiwiaXNfZnJlZSI6ZmFsc2UsImlzX3Nwb29uZXIiOmZhbHNlLCJpc19zdWJzY3JpYmVkIjp0cnVlLCJjdXJyZW50X2luc3RhbGxhdGlvbl90aW1lIjoiMjAyMi0wOC0wOVQwMTowNDo0MSswMDowMCIsImZpcnN0X2luc3RhbGxhdGlvbl90aW1lIjoiMjAyMi0wOC0wOVQwMTowNDo0MSswMDowMCIsInByaXZhY3lfcG9saWN5Ijp7Imxhc3RfYWNrbm93bGVkZ2VkX3ZlcnNpb24iOiIzLjIuMCJ9LCJzZXR0aW5ncyI6e319LCJpc3MiOiJvcmFjbGUyIiwiaWF0IjoxNjYwMDA3MzMxLCJuYmYiOjE2NjAwMDczMzEsImV4cCI6MTY2MDA5MzczMX0.4f1QbP_zPI9VlvpWwCc56Lzz3xc99ye9MkKYDitQ1ro",
+      "expiration" : "2022-08-10T01:08:51.066519+00:00"
+    },
+    "__privacy_notice_url__" : "https://support.bendingspoons.com/privacy.html?app=409838725&version=3.2.0",
+    "monetization--default--static_comparison_style--free_trial_subscription_id" : "com.path36.SpliceFree.1y_t100_2w",
+    "monetization--deep_link_trigger--offer_style--benefit" : "discount_30",
+    "normalize_timeline_item_start_timescale" : false,
+    "review_skip_survey" : true,
+    "monetization--deep_link_trigger--variant_3--styles" : [
+      "offer"
+    ],
+    "monetization--default--style" : "null",
+    "monetization--deep_link_trigger--variant_1--offer_style--subscriptions" : [
+      "com.path36.SpliceFree.1w_t6_2w"
+    ],
+    "photo_permission_position" : "project_opened",
+    "monetization--pro_banner_tapped_trigger--style" : "comparison",
+    "review_rating_dismissable" : true,
+    "monetization--default--informative_checkbox_style--free_trial_title" : [
+      {
+        "copy" : "Get unlimited access to all of Splice's features, and start making video edits like the pros for free for %1$d days, then for only %2$@.\rNo experience needed.",
+        "language" : "en"
+      }
+    ],
+    "onboarding_survey_navigation_steps" : [
+      "segmentation-2-level",
+      "segmentation-2-scope",
+      "segmentation-2-theme",
+      "segmentation-share",
+      "attribution"
+    ],
+    "onboarding_survey_start_page" : "segmentation-2-level",
+    "churner_notification_body" : [
+      {
+        "copy" : "The number #1 video editor awaits you with tons of free tools.",
+        "language" : "en"
+      }
+    ],
+    "monetization--pro_badge_tapped_trigger--variant_2--style" : "comparison",
+    "project_setup--music_section--title" : [
+      {
+        "copy" : "Royalty-free music",
+        "language" : "en"
+      }
+    ],
+    "paywall_close_button_kind" : "big",
+    "pro_features" : [
+      {
+        "min_build" : 1,
+        "pro_features" : [
+          "add_imported_music",
+          "video_adjustments",
+          "video_crop",
+          "photo_adjustments",
+          "photo_crop",
+          "video_detach_audio",
+          "video_reverse",
+          "audio_reverse",
+          "add_effect",
+          "speed_effect",
+          "item_masks",
+          "item_chroma_key",
+          "captions"
+        ],
+        "install_date" : "2000-01-01T16:59:00+02"
+      },
+      {
+        "min_build" : 1,
+        "pro_features" : [
+          "add_music",
+          "add_itunes_music",
+          "add_imported_music",
+          "video_animation",
+          "photo_animation",
+          "transition_type",
+          "transition_duration",
+          "video_detach_audio",
+          "video_reverse",
+          "audio_reverse",
+          "add_effect",
+          "speed_effect",
+          "item_masks",
+          "item_chroma_key",
+          "captions"
+        ],
+        "install_date" : "2020-01-25T16:59:00+02"
+      }
+    ],
+    "paywall_show_subscription_info" : false,
+    "monetization--deep_link_trigger--variant_2--offer_style--benefit" : "discount_30",
+    "watermark_subscription_index_3_checkbox" : 7,
+    "__terms_of_service_effective_date__" : "2022-06-21T12:00:00+00:00",
+    "monetization--default--checkbox_style--live_chat_configuration" : "none",
+    "paywall_kind_3" : "calm",
+    "splice_awards_banner_title_copy" : [
+      {
+        "copy" : "Try to win a GoPro® Hero9®",
+        "language" : "en"
+      }
+    ],
+    "idfa_preprompt_enabled" : false,
+    "monetization--default--comparison_style--video_id" : "comparison_paywall_cards_UGC",
+    "text_size_smart_default_enabled" : true,
+    "tutorials_section_banner_url" : "",
+    "templates_sharing_tutorial_url" : "https://support.spliceapp.com/hc/en-gb/articles/7206757753873",
+    "ripple_edit_enabled" : false,
+    "yearly_upgrade_status" : "enable_for_percentage_of_users",
+    "monetization--save_video_tapped_trigger--styles" : [
+
+    ],
+    "monetization--pro_badge_tapped_trigger--variant_1--comparison_style--motivating" : false,
+    "monetization--configuration--pro_feature_badge_style" : "normal",
+    "monetization--premium_button_tapped_trigger--variant_1" : "eligible_for_free_trial == false",
+    "monetization--pro_badge_tapped_trigger--comparison_style--title_copy" : [
+      {
+        "copy" : "Ready to become a Splicer?",
+        "is_fallback" : true,
+        "language" : "en"
+      },
+      {
+        "copy" : "Prêt à devenir un Splicer?",
+        "is_fallback" : false,
+        "language" : "fr"
+      },
+      {
+        "copy" : "Sind Sie bereit, ein Splicer zu werden?",
+        "is_fallback" : false,
+        "language" : "de"
+      },
+      {
+        "copy" : "Pronto a diventare uno Splicer?",
+        "is_fallback" : false,
+        "language" : "it"
+      },
+      {
+        "copy" : "¿Estás listo para convertirte en un Splicer?",
+        "is_fallback" : false,
+        "language" : "es"
+      },
+      {
+        "copy" : "スプライスのユーザーになる準備はいいですか？",
+        "is_fallback" : false,
+        "language" : "ja"
+      },
+      {
+        "copy" : "스플라이서가 될 준비 되셨나요?",
+        "is_fallback" : false,
+        "language" : "ko"
+      },
+      {
+        "copy" : "Gostaria de se tornar um Splicer?",
+        "is_fallback" : false,
+        "language" : "pt"
+      },
+      {
+        "copy" : "Готовы стать пользователем Splice?",
+        "is_fallback" : false,
+        "language" : "ru"
+      },
+      {
+        "copy" : "Splicer olmaya hazır mısınız?",
+        "is_fallback" : false,
+        "language" : "tr"
+      },
+      {
+        "copy" : "准备好做一名Splice达人了吗?",
+        "is_fallback" : false,
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "準備好要成為一名剪接師了嗎?",
+        "is_fallback" : false,
+        "language" : "zh-hant"
+      }
+    ],
+    "monetization--default--should_show_green_no_payment_badge" : false,
+    "itunes_prominent" : false,
+    "chromakey_enabled" : true,
+    "onboarding_second_session_enabled" : false,
+    "monetization--deep_link_trigger--offer_style--subscription" : "com.path36.SpliceFree.1w_t4_1w",
+    "monetization--pro_banner_tapped_trigger--variant_1--comparison_style--subscriptions" : [
+      "com.path36.SpliceFree.1y_t100",
+      "com.path36.SpliceFree.1m_t20",
+      "com.path36.SpliceFree.1w_t6"
+    ],
+    "single_onboarding" : "onboarding_multitrack",
+    "monetization--project_tapped_trigger--variant_1--comparison_style--should_show_motivating_copy" : false,
+    "monetization--default--prominent_dismiss_button_cta" : [
+      {
+        "copy" : "Try the limited version",
+        "language" : "en"
+      }
+    ],
+    "monetization--deep_link_trigger--variant_3--offer_style--benefit" : "discount_30",
+    "onboarding_survey" : "",
+    "changelog_enabled" : true,
+    "aspect_ratios_randomised" : false,
+    "music_provider_logo_enabled" : false,
+    "max_requests_per_version" : 3,
+    "__privacy_notice_version__" : "3.2.0",
+    "monetization--default--close_button_color" : "#FFFFFF",
+    "monetization--pro_feature_tapped_trigger--style" : "null",
+    "monetization--project_tapped_trigger--variant_2" : "first_session == false && eligible_for_free_trial == true",
+    "changelog_popup_position" : "main_editor",
+    "monetization--deep_link_trigger--variant_4" : "[\"billboard\", \"fedez_stories\", \"billboard1\"].includes(offer_id)",
+    "monetization--configuration--pro_features" : [
+      {
+        "min_build" : 1,
+        "pro_features" : [
+          "add_imported_music",
+          "video_adjustments",
+          "video_crop",
+          "photo_adjustments",
+          "photo_crop",
+          "video_detach_audio",
+          "video_reverse",
+          "audio_reverse",
+          "add_effect",
+          "speed_effect",
+          "item_masks",
+          "item_chroma_key",
+          "captions",
+          "super_slow_motion"
+        ],
+        "install_date" : "2000-01-01T16:59:00+02"
+      },
+      {
+        "min_build" : 1,
+        "pro_features" : [
+          "add_music",
+          "add_itunes_music",
+          "add_imported_music",
+          "video_animation",
+          "photo_animation",
+          "transition_type",
+          "transition_duration",
+          "video_detach_audio",
+          "video_reverse",
+          "audio_reverse",
+          "add_effect",
+          "speed_effect",
+          "item_masks",
+          "item_chroma_key",
+          "captions",
+          "super_slow_motion"
+        ],
+        "install_date" : "2020-01-25T16:59:00+02"
+      }
+    ],
+    "selection_handle_kind" : "old",
+    "text_fonts" : [
+      {
+        "font_name" : ".SFUIText-Semibold",
+        "shorthand" : "San Francisco"
+      },
+      {
+        "font_name" : "American Typewriter",
+        "shorthand" : "American Typewriter"
+      },
+      {
+        "font_name" : "Apple SD Gothic Neo",
+        "shorthand" : "Apple SD Gothic Neo"
+      },
+      {
+        "font_name" : "Arial Rounded MT Bold",
+        "shorthand" : "Arial Rounded"
+      },
+      {
+        "font_name" : "Arial",
+        "shorthand" : "Arial"
+      },
+      {
+        "font_name" : "Arkhip",
+        "shorthand" : "Arkhip"
+      },
+      {
+        "font_name" : "Audrey",
+        "shorthand" : "Audrey"
+      },
+      {
+        "font_name" : "Avenir Next Condensed",
+        "shorthand" : "Avenir Next Condensed"
+      },
+      {
+        "font_name" : "Avenir Next",
+        "shorthand" : "Avenir Next"
+      },
+      {
+        "font_name" : "Baskerville",
+        "shorthand" : "Baskerville"
+      },
+      {
+        "font_name" : "BERNIER Regular",
+        "shorthand" : "BERNIER"
+      },
+      {
+        "font_name" : "Blogger Sans",
+        "shorthand" : "Blogger Sans"
+      },
+      {
+        "font_name" : "Blowbrush",
+        "shorthand" : "Blowbrush"
+      },
+      {
+        "font_name" : "Blzee",
+        "shorthand" : "blzee"
+      },
+      {
+        "font_name" : "Bodoni 72 Smallcaps",
+        "shorthand" : "Bodoni 72 Smallcaps"
+      },
+      {
+        "font_name" : "Bodoni 72",
+        "shorthand" : "Bodoni 72"
+      },
+      {
+        "font_name" : "Borg",
+        "shorthand" : "Borg"
+      },
+      {
+        "font_name" : "BPdots",
+        "shorthand" : "BPdots"
+      },
+      {
+        "font_name" : "Bradley Hand",
+        "shorthand" : "Bradley Hand"
+      },
+      {
+        "font_name" : "Chalkboard SE",
+        "shorthand" : "Chalkboard"
+      },
+      {
+        "font_name" : "Chalkduster",
+        "shorthand" : "Chalkduster"
+      },
+      {
+        "font_name" : "Cochin",
+        "shorthand" : "Cochin"
+      },
+      {
+        "font_name" : "Copperplate",
+        "shorthand" : "Copperplate"
+      },
+      {
+        "font_name" : "Cornerstone",
+        "shorthand" : "Cornerstone"
+      },
+      {
+        "font_name" : "Courier New",
+        "shorthand" : "Courier New"
+      },
+      {
+        "font_name" : "Courier",
+        "shorthand" : "Courier"
+      },
+      {
+        "font_name" : "Creative Type",
+        "shorthand" : "Creative Type"
+      },
+      {
+        "font_name" : "Dan",
+        "shorthand" : "Dan"
+      },
+      {
+        "font_name" : "Didot",
+        "shorthand" : "Didot"
+      },
+      {
+        "font_name" : "DIN Alternate",
+        "shorthand" : "DIN Alternate"
+      },
+      {
+        "font_name" : "DIN Condensed",
+        "shorthand" : "DIN Condensed"
+      },
+      {
+        "font_name" : "DymaxionScript",
+        "shorthand" : "Dymaxion"
+      },
+      {
+        "font_name" : "FARRAY",
+        "shorthand" : "FARRAY"
+      },
+      {
+        "font_name" : "Fester",
+        "shorthand" : "Fester"
+      },
+      {
+        "font_name" : "Fester-Semi-condensedBold",
+        "shorthand" : "Fester Bold"
+      },
+      {
+        "font_name" : "Futura",
+        "shorthand" : "Futura"
+      },
+      {
+        "font_name" : "Gagalin",
+        "shorthand" : "Gagalin"
+      },
+      {
+        "font_name" : "Georgia",
+        "shorthand" : "Georgia"
+      },
+      {
+        "font_name" : "Geotica 2012",
+        "shorthand" : "Geotica 2012"
+      },
+      {
+        "font_name" : "Gill Sans",
+        "shorthand" : "Gill Sans"
+      },
+      {
+        "font_name" : "Helvetica Neue",
+        "shorthand" : "Helvetica Neue"
+      },
+      {
+        "font_name" : "Helvetica",
+        "shorthand" : "Helvetica"
+      },
+      {
+        "font_name" : "Hoefler Text",
+        "shorthand" : "Hoefler Text"
+      },
+      {
+        "font_name" : "Intro Rust G",
+        "shorthand" : "Intro Rust"
+      },
+      {
+        "font_name" : "Iowan Old Style",
+        "shorthand" : "Iowan Old Style"
+      },
+      {
+        "font_name" : "Jaapokki",
+        "shorthand" : "Jaapokki"
+      },
+      {
+        "font_name" : "Katona I",
+        "shorthand" : "Katona I"
+      },
+      {
+        "font_name" : "Kohinoor Bangla",
+        "shorthand" : "Kohinoor Bangla"
+      },
+      {
+        "font_name" : "KUBIKA",
+        "shorthand" : "KUBIKA"
+      },
+      {
+        "font_name" : "Langdon",
+        "shorthand" : "Langdon"
+      },
+      {
+        "font_name" : "lazer84",
+        "shorthand" : "lazer84"
+      },
+      {
+        "font_name" : "Lora-Regular",
+        "shorthand" : "Lora"
+      },
+      {
+        "font_name" : "Lovelo",
+        "shorthand" : "Lovelo"
+      },
+      {
+        "font_name" : "Makhina",
+        "shorthand" : "Makhina"
+      },
+      {
+        "font_name" : "MANIFESTO",
+        "shorthand" : "MANIFESTO"
+      },
+      {
+        "font_name" : "Manteka",
+        "shorthand" : "Manteka"
+      },
+      {
+        "font_name" : "Maquinada Serif ",
+        "shorthand" : "Maquinada"
+      },
+      {
+        "font_name" : "Marion",
+        "shorthand" : "Marion"
+      },
+      {
+        "font_name" : "Marker Felt",
+        "shorthand" : "Marker Felt"
+      },
+      {
+        "font_name" : "Menlo",
+        "shorthand" : "Menlo"
+      },
+      {
+        "font_name" : "Swistblnk Monthoers",
+        "shorthand" : "Monthoers"
+      },
+      {
+        "font_name" : "Montserrat-ExtraBold",
+        "shorthand" : "Montserrat"
+      },
+      {
+        "font_name" : "Mosk Normal 400",
+        "shorthand" : "Mosk"
+      },
+      {
+        "font_name" : "Noir",
+        "shorthand" : "Noir"
+      },
+      {
+        "font_name" : "Noteworthy",
+        "shorthand" : "Noteworthy"
+      },
+      {
+        "font_name" : "Optima",
+        "shorthand" : "Optima"
+      },
+      {
+        "font_name" : "Oranienbaum",
+        "shorthand" : "Oranienbaum"
+      },
+      {
+        "font_name" : "Ostrich Sans",
+        "shorthand" : "Ostrich"
+      },
+      {
+        "font_name" : "Oswald Regular",
+        "shorthand" : "Oswald"
+      },
+      {
+        "font_name" : "Palatino",
+        "shorthand" : "Palatino"
+      },
+      {
+        "font_name" : "Papyrus",
+        "shorthand" : "Papyrus"
+      },
+      {
+        "font_name" : "Parisish",
+        "shorthand" : "Parisish"
+      },
+      {
+        "font_name" : "Perfograma",
+        "shorthand" : "Perfograma"
+      },
+      {
+        "font_name" : "Portal Black",
+        "shorthand" : "Portal"
+      },
+      {
+        "font_name" : "Rex Bold ",
+        "shorthand" : "Rex Bold "
+      },
+      {
+        "font_name" : "Selima",
+        "shorthand" : "Selima"
+      },
+      {
+        "font_name" : "Sensei",
+        "shorthand" : "Sensei"
+      },
+      {
+        "font_name" : "Shellahera Script Demo",
+        "shorthand" : "Shellahera"
+      },
+      {
+        "font_name" : "Slopes",
+        "shorthand" : "Slopes"
+      },
+      {
+        "font_name" : "Solena",
+        "shorthand" : "Solena"
+      },
+      {
+        "font_name" : "Sophia",
+        "shorthand" : "Sophia"
+      },
+      {
+        "font_name" : "Spilt Ink",
+        "shorthand" : "Spilt Ink"
+      },
+      {
+        "font_name" : "Sprite Graffiti",
+        "shorthand" : "Sprite Graffiti"
+      },
+      {
+        "font_name" : "Stiff Staff",
+        "shorthand" : "Stiff Staff"
+      },
+      {
+        "font_name" : "Street Corner Slab Narrow",
+        "shorthand" : "StreetCornerSlab"
+      },
+      {
+        "font_name" : "Superclarendon",
+        "shorthand" : "Superclarendon"
+      },
+      {
+        "font_name" : "Swistblnk Neaments",
+        "shorthand" : "Swistblnk Neaments"
+      },
+      {
+        "font_name" : "Times New Roman",
+        "shorthand" : "Times New Roman"
+      },
+      {
+        "font_name" : "Trebuchet MS",
+        "shorthand" : "Trebuchet"
+      },
+      {
+        "font_name" : "Ubuntu Condensed",
+        "shorthand" : "Ubuntu Condensed"
+      },
+      {
+        "font_name" : "VAL Stencil",
+        "shorthand" : "VAL Stencil"
+      },
+      {
+        "font_name" : "Yarin",
+        "shorthand" : "Yarin"
+      }
+    ],
+    "paywall_kind_4" : "calm",
+    "subscription_id_2_secondary" : "com.path36.SpliceFree.1m_t20_1w",
+    "intro_subscription_id_2_secondary" : "com.path36.SpliceFree.1m_t20_2w",
+    "idfa_popup_enabled" : true,
+    "subscription_id_secondary" : "com.path36.SpliceFree.1y_t100_1w",
+    "monetization--pro_banner_tapped_trigger--styles" : [
+      "comparison"
+    ],
+    "monetization--default--no_free_trial_cell_price_style" : "weekly_equivalent_subtitle",
+    "watermark_free_trial_enabled" : true,
+    "onboarding_survey_options" : [
+      {
+        "id" : "attribution-searching",
+        "sub_options" : [
+          "attribution-searching-appstore",
+          "attribution-searching-google"
+        ],
+        "has_text_input" : false,
+        "randomized" : true
+      },
+      {
+        "id" : "attribution-searching-appstore",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "attribution-searching-google",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "attribution-ad",
+        "sub_options" : [
+          "attribution-ad-facebook",
+          "attribution-ad-youtube",
+          "attribution-ad-snapchat",
+          "attribution-ad-instagram",
+          "attribution-ad-tiktok",
+          "attribution-ad-web"
+        ],
+        "has_text_input" : false,
+        "randomized" : true
+      },
+      {
+        "id" : "attribution-ad-facebook",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "attribution-ad-youtube",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "attribution-ad-snapchat",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "attribution-ad-instagram",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "attribution-ad-tiktok",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "attribution-ad-web",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "attribution-wordofmouth",
+        "sub_options" : [
+          "attribution-wordofmouth-video",
+          "attribution-wordofmouth-friend",
+          "attribution-wordofmouth-mention",
+          "attribution-wordofmouth-tutorial"
+        ],
+        "has_text_input" : false,
+        "randomized" : true
+      },
+      {
+        "id" : "attribution-wordofmouth-video",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "attribution-wordofmouth-friend",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "attribution-wordofmouth-mention",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "attribution-wordofmouth-tutorial",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-level-advanced",
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-level-basic",
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-level-intermediate",
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-level-none",
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-scope-friends-family",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-scope-passion",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-scope-influencer",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-scope-work",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-theme-useful",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-theme-funny",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-theme-effect",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-2-theme-beautiful",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-share-facebook",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-share-instagram",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-share-snapchat",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-share-tiktok",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-share-youtube",
+        "randomized" : true,
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-share-others",
+        "sub_options" : [
+          "segmentation-share-others-messaging",
+          "segmentation-share-others-no-share"
+        ],
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-share-others-messaging",
+        "has_text_input" : false
+      },
+      {
+        "id" : "segmentation-share-others-no-share",
+        "has_text_input" : false
+      }
+    ],
+    "attribution_survey_start_page" : "\"\"",
+    "monetization--default--prominent_dismiss_button_background_color" : "#FFFFFF",
+    "monetization--deep_link_trigger--variant_2--styles" : [
+      "offer"
+    ],
+    "speech_to_text_enabled" : true,
+    "monetization--new_project_tapped_trigger--style" : "null",
+    "text_smart_default_enabled" : true,
+    "intro_subscription_index_2" : 0,
+    "monetization--deep_link_trigger--variant_1--offer_style--benefit" : "14_days_trial",
+    "monetization--deep_link_trigger--variant_4--offer_style--subtitle_copy" : [
+      {
+        "copy" : "Passa a Splice PRO",
+        "language" : "it"
+      }
+    ],
+    "subscription_id_3_secondary" : "com.path36.SpliceFree.1w_t6_1w",
+    "favorite_music_enabled" : true,
+    "randomize_effects" : false,
+    "monetization--default--informative_checkbox_style--no_free_trial_subscription_id" : "com.path36.SpliceFree.1w_t6",
+    "monetization--promoted_product_trigger--styles" : [
+      "calm"
+    ],
+    "monetization--project_list_presented_trigger--style" : "null",
+    "monetization--default--media_screen_style--custom_close_button_cta" : [
+
+    ],
+    "splice_awards_popup_position" : "-",
+    "guided_tour_popup_enabled" : false,
+    "splice_awards_url" : "https://abg-bsp.wixsite.com/splice-awards",
+    "intro_subscription_selection_kind" : "price_selection",
+    "trim_button_enabled" : true,
+    "monetization--deep_link_trigger--variant_3" : "[\"cavinaarianna\", \"valentina_peracchi\", \"angie.tutorials\", \"robertofiorirocco\", \"eleonorasucci\", \"lally94\", \"latipadelmarketing\", \"socialribelli\", \"mentafragola\", \"social_silvia\", \"laurabaileni\", \"debeemama\", \"chiaradosio\", \"gion_snow\", \"eleonoraplevano\", \"seriallyblonde\", \"valentinaraso\"].includes(offer_id)",
+    "monetization--project_list_presented_trigger--variant_2--styles" : [
+      "media_screen",
+      "checkbox"
+    ],
+    "intro_paywall_kind_4" : "checkbox",
+    "monetization--project_tapped_trigger--style" : "null",
+    "review_show_native_prompt_chance" : 1,
+    "monetization--project_list_presented_trigger--calm_style--start_index" : 1,
+    "resubscription_subscription_id" : "com.path36.SpliceFree.1y_t100",
+    "monetization--promoted_product_trigger--variant_1--styles" : [
+      "comparison"
+    ],
+    "min_time_between_requests" : 180,
+    "likert_followup_configuration" : {
+      "followup_question" : "",
+      "min_threshold" : 1,
+      "max_threshold" : 3
+    },
+    "yearly_popup_paywall_enabled" : false,
+    "splice_awards_rules_url" : "https://abg-bsp.wixsite.com/splice-awards/official-regulations",
+    "idfa_preprompt_message" : "B1",
+    "upload_anonymized_projects" : true,
+    "onboarding_position" : "before_intro_paywall",
+    "monetization--new_project_tapped_trigger--variant_1--comparison_style--should_show_motivating_copy" : false,
+    "monetization--deep_link_trigger--variant_1--style" : "offer",
+    "super_slow_motion--is_ai_enabled" : false,
+    "small_overlay_enabled" : true,
+    "monetization--default--close_button_style" : "standard",
+    "banner_checkpoint_triggers_count" : 15,
+    "ripple_edit_sync_enabled" : false,
+    "monetization--premium_button_tapped_trigger--variant_1--comparison_style--subscriptions" : [
+      "com.path36.SpliceFree.1y_t100",
+      "com.path36.SpliceFree.1m_t20",
+      "com.path36.SpliceFree.1w_t6"
+    ],
+    "replace_editor_enabled" : true,
+    "paywall_close_button_position" : "top_right",
+    "__is_testflight__" : false,
+    "text_pinch_icon_enabled" : false,
+    "yearly_popup_dismissible" : false,
+    "monetization--default--comparison_style--subscriptions" : [
+      "com.path36.SpliceFree.1y_t150_2w",
+      "com.path36.SpliceFree.1m_t34",
+      "com.path36.SpliceFree.1w_t10"
+    ],
+    "creative_kit_caption" : "null",
+    "offer_campaigns" : {
+      "xyz" : {
+        "expiration_date" : "2022-01-01T16:59:00+02",
+        "offer_benefit_kind" : "discount_30",
+        "offer_paywall_subtitle" : [
+          {
+            "copy" : "Subscribe",
+            "language" : "en"
+          },
+          {
+            "copy" : "Подписывайся",
+            "language" : "ru"
+          }
+        ],
+        "offer_paywall_title" : [
+          {
+            "copy" : "Offer XYZ",
+            "language" : "en"
+          },
+          {
+            "copy" : "Предложение XYZ",
+            "language" : "de"
+          }
+        ]
+      }
+    },
+    "subscription_group_for_introductory_offer_eligibility_check" : "20503896",
+    "resubscription_subscription_id_2" : "com.path36.SpliceFree.1m_t20",
+    "resubscription_subscription_id_3" : "com.path36.SpliceFree.1w_t6",
+    "monetization--default--start_index" : 0,
+    "__encryption_key_id__" : "53bfd4440016c",
+    "blinkist_paywall_failsafe_product_id" : "com.path36.SpliceFree.1w_t6_1w",
+    "monetization--deep_link_trigger--variant_2" : "[\"catarina\", \"catarina-video\", \"catarina-reels\", \"catarina-tiktok\", \"catarina30\", \"compass\", \"andrew-jevin\", \"kittykatzmd\", \"connordryan\", \"explore-create-capture\", \"lissettecalv\", \"byaimeekelly\", \"christiannblake\", \"harleyyjordann\", \"bigskycaroline\", \"bee\", \"camly\", \"alejandra-roman\", \"kathryn-eaddy\", \"jen-ruiz\", \"selah-victor\", \"julievigorito\", \"nicole-neissany\", \"mooselovesu\", \"shoniimu\", \"lilmsawkward\", \"leonamarlene\", \"frankie\", \"saltynuts\", \"andreirestrepo\", \"brant-moore\", \"nicolet-life\", \"aurelien\", \"selma\", \"chai-sunkist\", \"mona\", \"rylen\", \"candance\", \"mjfangirl\", \"jeff\", \"gabby\", \"hunter\", \"kiara\", \"oliver\", \"nicolet\", \"chasity\", \"jenny\", \"liana\", \"jordynn\", \"pushuptostrong\", \"evaholzl\", \"sully\", \"zac\", \"justin\", \"tvids\", \"sara\", \"georgia\", \"eyecharlene\", \"abiroman\", \"mandyemerson\", \"collin\", \"monica\", \"trashock\", \"jessica\", \"marielou\", \"rorywatson\", \"enrico\", \"honye\", \"bahamianista\", \"misty\", \"okblema\", \"callumraces\", \"highontrice\", \"elizabetzauere\", \"victoria\", \"ALAIAHHH\", \"aliciawxw\", \"Coolajfitness\", \"Ameliagil\", \"theemperorofnewyork\", \"Kingkayak\", \"ASHTONTHRASH\", \"audrejam007\", \"faniayala\", \"AlexisOfficial\", \"aaronnaedayona\", \"Antknees\", \"pogikingjay\", \"breerenay\", \"CRAYCRAYJAY\", \"caitlinherst\", \"vin\", \"CAULIN\", \"nycharlene\", \"Chriscucufate\", \"GameReadybball\", \"Claudiaspear\", \"WALTSTUDIO\", \"cookingwithpatlee\", \"chris_bugatti\", \"anchoredthroughmotherhood\", \"dejaxmonet\", \"BIGMAMIDEE\", \"Analee\", \"djlatinoprince\", \"diogowithano\", \"FABIANGARCIA\", \"Bubbles24\", \"pj\", \"GINGERRRUST\", \"BRITTANYK\", \"grihm\", \"YFP\", \"DanielleM\", \"jessicalaylah\", \"joshlewispitt\", \"nobikingnolife\", \"createdtocreateit\", \"JoySpotted\", \"Junyuhvr\", \"Picklegal1\", \"HelloKeanah\", \"KeshoKage\", \"koko_iz_lulu\", \"Kristinaburrini\", \"kyhikari\", \"_LaJevaBella\", \"lindacjn281\", \"mottwn\", \"MarquiJordan\", \"megandoesnola\", \"madewithspirit\", \"Misspadillaofficial\", \"MYKEL\", \"SAINTNXCK\", \"nvrhme_\", \"odeevibez\", \"Plantypoppins\", \"Ponomusichi\", \"MayasWorld\", \"AmbitiousBoogie\", \"clvimani\", \"texastrex\", \"Samiya\", \"Sudokuismypersonality\", \"9to5Tahmin\", \"Taleeuuhhh\", \"tamsou\", \"chieftan\", \"AIKO\", \"thefitcherie\", \"VANITYBEAR\", \"THOMASSTROUD\", \"Tarabellarella\", \"toastythetux\", \"TOMKOLA\", \"UnleashFIT\", \"Gloria\", \"vinylgoneviral\", \"loanndbehold\", \"WOWROLLING\", \"yourgirlking\", \"AutieShawtie\", \"TITLESARELAME\", \"GamGam\", \"ashhgalore\", \"jliketheletta\", \"maineiacgirl\", \"ElJeFenix\", \"JOEYASTEROID\", \"Solomon2wise\", \"iamtaramason\", \"JunneMarrie\", \"millennialmoneyhoney\", \"abbipark\", \"baywav\", \"antisocialeddie\", \"KEZBLUE\", \"haana\", \"RHGolf\", \"kolimarksmedia\", \"23oddcats\", \"jgpilates\", \"Austenraulplanes\", \"elliottjames\", \"theseventh_agofaffapix\", \"matt-garcia\", \"Sferro21\", \"Sferro21TT\", \"Sferro21YT\", \"NonaIG\", \"NonaTT\", \"JordenIG\", \"JordenTT\", \"Dania\", \"Windoh\", \"AnaGarcia\", \"FedeMeta\", \"isabela_valadeiro\", \"luana_santos\", \"maria_rodrigues\", \"debora_monteiro\", \"leonor_borges\"].includes(offer_id)",
+    "monetization--pro_badge_tapped_trigger--variant_1--style" : "comparison",
+    "offer_paywall_subtitle" : [
+
+    ],
+    "watermark_subscription_index_2_checkbox" : 5,
+    "snapchat_sticker_position_x" : 0.5,
+    "randomize_filters" : false,
+    "show_multiple_targets_on_share" : true,
+    "monetization--new_project_tapped_trigger--variant_1--styles" : [
+      "comparison"
+    ],
+    "churner_notification_delay_from_background" : 300,
+    "likert_modal_question" : "How would you rate Splice?",
+    "monetization--default--should_show_free_trial_info" : false,
+    "project_setup--music_section--is_checkbox_enabled_by_default" : false,
+    "scalable_panels_enabled" : true,
+    "text_animations_fake_door" : "none",
+    "yearly_popup_intro_product_id" : "com.path36.SpliceFree.1y_t100_1w",
+    "blocking_pro_features_enabled" : false,
+    "yearly_popup_paywall_product_id" : "com.path36.SpliceFree.1y_t100_1w",
+    "monetization--new_project_tapped_trigger--variant_1" : "first_session == false && eligible_for_free_trial == false",
+    "primary_toolbar_categories_enabled" : false,
+    "monetization--deep_link_trigger--variant_1--styles" : [
+      "offer"
+    ],
+    "monetization--default--free_trial_cell_highlight_color" : "null",
+    "paywall_subtitle_copy" : [
+      {
+        "copy" : "No commitments, cancel anytime.",
+        "language" : "en"
+      },
+      {
+        "copy" : "Aucun engagement, annulez à tout moment.",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Keine Verpflichtungen, jederzeit kündbar.",
+        "language" : "de"
+      },
+      {
+        "copy" : "Nessun impegno, cancella quando vuoi.",
+        "language" : "it"
+      },
+      {
+        "copy" : "Sin compromiso, cancela cuando quieras.",
+        "language" : "es"
+      },
+      {
+        "copy" : "いつでもキャンセルできます。",
+        "language" : "ja"
+      },
+      {
+        "copy" : "약정이 없으며, 언제든지 취소 가능합니다.",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Sem compromissos, cancele quando quiser.",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Никаких обязательств, отмена в любое время.",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Taahhüt yok, istediğiniz zaman iptal edin.",
+        "language" : "tr"
+      },
+      {
+        "copy" : "无需承诺，可随时取消",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "無需承諾，可隨時取消。",
+        "language" : "zh-hant"
+      }
+    ],
+    "monetization--default--media_screen_style--custom_close_button_style" : "top_right_icon",
+    "monetization--new_project_tapped_trigger--styles" : [
+
+    ],
+    "errors_to_skip_project_upload" : [
+
+    ],
+    "monetization--project_list_presented_trigger--checkbox_style--control_style" : "button",
+    "idfa_preprompt_skippable" : false,
+    "default_photos_animation" : false,
+    "monetization--deep_link_trigger--variant_1" : "offer_id == \"14_days_trial\"",
+    "project_setup--should_show_music_section" : false,
+    "monetization--premium_button_tapped_trigger--style" : "comparison",
+    "watermark_enabled" : false,
+    "monetization--default--price_description_should_show_expire_date" : false,
+    "monetization--pro_feature_tapped_trigger--styles" : [
+
+    ],
+    "paywall_asset" : "video_output_muted",
+    "onboarding_paywall_show" : false,
+    "offer_paywall_title" : [
+
+    ],
+    "watermark_subscription_id_3" : "com.path36.SpliceFree.1y_t100",
+    "overlay_icon_and_copy" : 1,
+    "comparison_ignore_subscription_id_3" : false,
+    "music_selector_enabled" : false,
+    "churner_notification_enabled" : false,
+    "randomize_fonts" : false,
+    "intro_subscription_index_2_checkbox" : 0,
+    "email_collection_position" : "before_intro_paywall",
+    "intro_paywall_show" : true,
+    "request_push_permission" : true,
+    "feedback_forum_url" : "https://splice.uservoice.com",
+    "scalable_filter_panel_single_entry_point_enabled" : false,
+    "one_tap_opens_text_keyboard_enabled" : true,
+    "text_added_at_playhead" : true,
+    "subscription_index_checkbox" : 11,
+    "randomize_music_categories" : true,
+    "monetization--default--static_comparison_style--no_free_trial_subscription_id" : "com.path36.SpliceFree.1w_t6",
+    "highlights_improved_button" : true,
+    "intro_subscription_id_secondary" : "com.path36.SpliceFree.1w_t6_2w",
+    "safe_areas_enabled" : true,
+    "monetization--premium_button_tapped_trigger--variant_1--comparison_style--should_show_motivating_copy" : false,
+    "monetization--default--should_price_selection_initiate_purchase_flow" : false,
+    "monetization--export_tapped_trigger--styles" : [
+
+    ],
+    "comparison_equivalent_pricing_enabled" : true,
+    "onboarding_walkthrough" : "walkthrough_template_mvp",
+    "intro_paywall_close_button_kind" : "big",
+    "email_collection_enabled" : false,
+    "early_paywall_show" : false,
+    "music_library_changes_warnings" : {
+      "experiment_update_id" : "",
+      "main_editor_alert_message" : "",
+      "music_section_alert_message" : "",
+      "music_section_alert_title" : "",
+      "main_editor_alert_title" : "",
+      "project_list_warning" : ""
+    },
+    "monetization--deep_link_trigger--variant_2--offer_style--subscription" : "com.path36.SpliceFree.1w_t6_1w",
+    "comparison_layout_type" : "new_vertical",
+    "monetization--default--free_trial_cta" : [
+      {
+        "copy" : "Try free and subscribe",
+        "language" : "en"
+      },
+      {
+        "copy" : "Kostenlos testen und abonnieren",
+        "language" : "de"
+      },
+      {
+        "copy" : "Faites un essai gratuit et abonnez-vous",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Prova gratis e iscriviti",
+        "language" : "it"
+      },
+      {
+        "copy" : "Prueba gratis y suscríbete",
+        "language" : "es"
+      },
+      {
+        "copy" : "無料で試して登録",
+        "language" : "ja"
+      },
+      {
+        "copy" : "무료 체험하고 구독하세요",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Teste grátis e assine",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Попробуйте бесплатно и подпишитесь",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Ücretsiz deneyin ve abone olun",
+        "language" : "tr"
+      },
+      {
+        "copy" : "免费试用并订阅",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "免費試用，再訂閱",
+        "language" : "zh-hant"
+      }
+    ],
+    "onboarding_survey_pages" : [
+      {
+        "header_image" : "segmentation-header-1",
+        "id" : "segmentation-2-level",
+        "options" : [
+          "segmentation-2-level-none",
+          "segmentation-2-level-basic",
+          "segmentation-2-level-intermediate",
+          "segmentation-2-level-advanced"
+        ],
+        "next_page" : "segmentation-2-scope"
+      },
+      {
+        "header_image" : "segmentation-header-5",
+        "id" : "segmentation-2-scope",
+        "options" : [
+          "segmentation-2-scope-work",
+          "segmentation-2-scope-influencer",
+          "segmentation-2-scope-passion",
+          "segmentation-2-scope-friends-family"
+        ],
+        "next_page" : "segmentation-2-theme"
+      },
+      {
+        "header_image" : "segmentation-header-3",
+        "id" : "segmentation-2-theme",
+        "options" : [
+          "segmentation-2-theme-useful",
+          "segmentation-2-theme-funny",
+          "segmentation-2-theme-effect",
+          "segmentation-2-theme-beautiful",
+          "segmentation-2-theme-memory"
+        ],
+        "next_page" : "segmentation-share"
+      },
+      {
+        "header_image" : "segmentation-header-2",
+        "id" : "segmentation-share",
+        "options" : [
+          "segmentation-share-facebook",
+          "segmentation-share-instagram",
+          "segmentation-share-tiktok",
+          "segmentation-share-youtube",
+          "segmentation-share-snapchat",
+          "segmentation-share-others"
+        ],
+        "next_page" : "attribution"
+      },
+      {
+        "id" : "attribution",
+        "header_image" : "segmentation-header-4",
+        "options" : [
+          "attribution-searching",
+          "attribution-ad",
+          "attribution-wordofmouth"
+        ]
+      }
+    ],
+    "popular_music_enabled" : false,
+    "monetization--pro_banner_tapped_trigger--variant_1--comparison_style--should_show_motivating_copy" : false,
+    "product_ids_for_offer_benefits" : {
+      "none" : [
+
+      ],
+      "discount_30" : [
+        "com.path36.SpliceFree.1w_t4_1w"
+      ],
+      "14_days_trial" : [
+        "com.path36.SpliceFree.1w_t6_2w"
+      ]
+    },
+    "__is_baseline__" : false,
+    "monetization--pro_badge_tapped_trigger--variant_1" : "eligible_for_free_trial == false",
+    "stock_media_mvp_enabled" : false,
+    "surveys--list_v2" : [
+      {
+        "weight" : 2,
+        "feature_trigger" : {
+          "feature" : "add_text",
+          "count" : 2
+        },
+        "condition" : "language == 'en'",
+        "is_full_screen" : false,
+        "survey_url" : "https://rc1userl9j3bfjcc7ck2.fra1.qualtrics.com/jfe/form/SV_d6XoZj9t0nPxQ2i",
+        "trigger" : "feature_tapped",
+        "survey_id" : "text_size_survey",
+        "alert" : {
+          "body" : [
+            {
+              "copy" : "Would you like to help us improve Splice?",
+              "language" : "en"
+            }
+          ],
+          "title" : [
+            {
+              "copy" : "We need your help 🙏",
+              "language" : "en"
+            }
+          ],
+          "decline_cta" : [
+            {
+              "copy" : "Maybe later",
+              "language" : "en"
+            }
+          ],
+          "accept_cta" : [
+            {
+              "copy" : "Sure!",
+              "language" : "en"
+            }
+          ],
+          "header_image_name" : "header_1"
+        }
+      }
+    ],
+    "project_list--should_show_new_feature_section" : false,
+    "surveys--list--test_1" : [
+      {
+        "weight" : 1,
+        "condition" : "user_status == 'subscribed' && total_sessions >= 1",
+        "fake_door" : {
+          "title" : [
+            {
+              "copy" : "Monetize your video",
+              "language" : "en"
+            }
+          ],
+          "type" : "export_completed.above_close_button"
+        },
+        "is_full_screen" : true,
+        "survey_url" : "https://rc1userl9j3bfjcc7ck2.fra1.qualtrics.com/jfe/form/SV_0xLT1JRIi4hPiCy",
+        "trigger" : "fake_door",
+        "survey_id" : "test_1"
+      },
+      {
+        "is_full_screen" : false,
+        "condition" : "true",
+        "survey_url" : "https://rc1userl9j3bfjcc7ck2.fra1.qualtrics.com/jfe/form/SV_0xLT1JRIi4hPiasd",
+        "trigger" : "export_completed",
+        "weight" : 1,
+        "survey_id" : "test_3"
+      },
+      {
+        "weight" : 3,
+        "condition" : "user_status == 'not_subscribed' && total_sessions >= 20",
+        "is_full_screen" : true,
+        "survey_url" : "https://rc1userl9j3bfjcc7ck2.fra1.qualtrics.com/jfe/form/SV_0xLT1JRIi4hPijmm",
+        "trigger" : "project_list_presented",
+        "alert" : {
+          "body" : [
+            {
+              "copy" : "Would you like to help us making Splice a better app?",
+              "language" : "en"
+            }
+          ],
+          "title" : [
+            {
+              "copy" : "We need your help",
+              "language" : "en"
+            }
+          ],
+          "decline_cta" : [
+            {
+              "copy" : "Maybe later",
+              "language" : "en"
+            }
+          ],
+          "accept_cta" : [
+            {
+              "copy" : "Sure!",
+              "language" : "en"
+            }
+          ],
+          "header_image_name" : "header_1"
+        },
+        "survey_id" : "test_4"
+      },
+      {
+        "feature_trigger" : {
+          "count" : 2,
+          "feature" : "add_music"
+        },
+        "weight" : 1,
+        "condition" : "total_sessions >= 1",
+        "is_full_screen" : false,
+        "survey_url" : "https://rc1userl9j3bfjcc7ck2.fra1.qualtrics.com/jfe/form/SV_0xLT1JRIi4hPiasd",
+        "trigger" : "feature_tapped",
+        "survey_id" : "test_5"
+      }
+    ],
+    "monetization--project_list_presented_trigger--variant_1--styles" : [
+      "comparison"
+    ],
+    "surveys--list" : [
+      {
+        "weight" : 2,
+        "feature_trigger" : {
+          "feature" : "add_text",
+          "count" : 2
+        },
+        "condition" : "language == 'en'",
+        "is_full_screen" : false,
+        "survey_url" : "https://rc1userl9j3bfjcc7ck2.fra1.qualtrics.com/jfe/form/SV_d6XoZj9t0nPxQ2i",
+        "trigger" : "feature_tapped",
+        "survey_id" : "text_size_survey",
+        "alert" : {
+          "body" : [
+            {
+              "copy" : "Would you like to help us improve Splice?",
+              "language" : "en"
+            }
+          ],
+          "title" : [
+            {
+              "copy" : "We need your help 🙏",
+              "language" : "en"
+            }
+          ],
+          "decline_cta" : [
+            {
+              "copy" : "Maybe later",
+              "language" : "en"
+            }
+          ],
+          "accept_cta" : [
+            {
+              "copy" : "Sure!",
+              "language" : "en"
+            }
+          ],
+          "header_image_name" : "header_1"
+        }
+      }
+    ],
+    "creative_kit_attachment_url" : "null",
+    "monetization--promoted_product_trigger--variant_1--comparison_style--subscriptions" : [
+      "com.path36.SpliceFree.1y_t100",
+      "com.path36.SpliceFree.1m_t20",
+      "com.path36.SpliceFree.1w_t6"
+    ],
+    "number_of_free_exports" : 1,
+    "monetization--pro_badge_tapped_trigger--variant_1--styles" : [
+      "comparison"
+    ],
+    "motivating_checkbox_paywall_strategy" : "midway",
+    "aspect_ratio_forced_selection" : false,
+    "randomize_transitions" : false,
+    "watermark_subscription_index" : 0,
+    "tutorials_url" : "https://support.spliceapp.com/hc/en-gb/categories/4421739658129-Video-Tutorials",
+    "playhead_visible_enabled" : true,
+    "text_animations_enabled" : false,
+    "resubscription_subscription_selection_kind" : "comparison",
+    "idfa_popup_position" : "after_tos",
+    "social_media_margins_disabled" : false,
+    "monetisation_kind" : "soft_paywall",
+    "monetization--pro_banner_tapped_trigger--variant_1" : "eligible_for_free_trial == false",
+    "attribution_survey_pages" : [
+
+    ],
+    "selection_handles_kind" : "arrow",
+    "subscription_id_3" : "com.path36.SpliceFree.1w_t6",
+    "monetization--deep_link_trigger--variant_4--offer_style--subscription" : "com.path36.SpliceFree.1y_t100_2w",
+    "subscription_id" : "com.path36.SpliceFree.1y_t100",
+    "banner_type" : "checkpoint_triggered",
+    "upload_project_on_export_failure" : true,
+    "monetization--project_list_presented_trigger--variant_2--style" : "checkbox",
+    "monetization--onboarding_survey_ended_trigger--styles" : [
+
+    ],
+    "monetization--default--discount_style--compared_subscription" : "com.path36.SpliceFree.1w_t6",
+    "monetization--onboarding_survey_ended_trigger--calm_style--subscriptions" : [
+
+    ],
+    "monetization--default--media_screen_style--video_id" : "null",
+    "paywall_kind" : "calm",
+    "monetization--pro_badge_tapped_trigger--variant_2--styles" : [
+      "comparison"
+    ],
+    "shortcuts_enabled" : true,
+    "monetization--default--media_screen_style--primary_button_cta" : [
+      {
+        "copy" : "Try free for 14 days",
+        "language" : "en"
+      }
+    ],
+    "monetization--default--placeholder_image_id" : "placeholder_UGC",
+    "monetization--deep_link_trigger--variant_4--offer_style--title_copy" : [
+      {
+        "copy" : "Fai come Fedez, diventa uno Splicer",
+        "language" : "it"
+      }
+    ],
+    "monetization--default--title_copy" : [
+      {
+        "copy" : "Ready to become a Splicer?",
+        "language" : "en"
+      },
+      {
+        "copy" : "Prêt à devenir un Splicer?",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Sind Sie bereit, ein Splicer zu werden?",
+        "language" : "de"
+      },
+      {
+        "copy" : "Pronto a diventare uno Splicer?",
+        "language" : "it"
+      },
+      {
+        "copy" : "¿Estás listo para convertirte en un Splicer?",
+        "language" : "es"
+      },
+      {
+        "copy" : "スプライスのユーザーになる準備はいいですか？",
+        "language" : "ja"
+      },
+      {
+        "copy" : "스플라이서가 될 준비 되셨나요?",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Gostaria de se tornar um Splicer?",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Готовы стать пользователем Splice?",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Splicer olmaya hazır mısınız?",
+        "language" : "tr"
+      },
+      {
+        "copy" : "准备好做一名Splice达人了吗?",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "準備好要成為一名剪接師了嗎?",
+        "language" : "zh-hant"
+      }
+    ],
+    "gridlines_in_crop_menu" : true,
+    "is_onboarding_to_paywall_page_transition_enabled" : false,
+    "paywall_close_button_colour" : "#FFFFFF",
+    "monetization--default--discount_style--subscription" : "com.path36.SpliceFree.1m_t20",
+    "paywall_cta_with_free_trial" : [
+      {
+        "copy" : "Try free and subscribe",
+        "language" : "en"
+      },
+      {
+        "copy" : "Kostenlos testen und abonnieren",
+        "language" : "de"
+      },
+      {
+        "copy" : "Faites un essai gratuit et abonnez-vous",
+        "language" : "fr"
+      },
+      {
+        "copy" : "Prova gratis e iscriviti",
+        "language" : "it"
+      },
+      {
+        "copy" : "Prueba gratis y suscríbete",
+        "language" : "es"
+      },
+      {
+        "copy" : "無料で試して登録",
+        "language" : "ja"
+      },
+      {
+        "copy" : "무료 체험하고 구독하세요",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Teste grátis e assine",
+        "language" : "pt"
+      },
+      {
+        "copy" : "Попробуйте бесплатно и подпишитесь",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Ücretsiz deneyin ve abone olun",
+        "language" : "tr"
+      },
+      {
+        "copy" : "免费试用并订阅",
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "免費試用，再訂閱",
+        "language" : "zh-hant"
+      }
+    ],
+    "monetization--default--subscriptions" : [
+
+    ],
+    "monetization--deep_link_trigger--variant_3--offer_style--title_copy" : [
+      {
+        "copy" : "Diventa uno Splicer",
+        "language" : "it"
+      }
+    ],
+    "blinkist_paywall_title_copy" : [
+      {
+        "copy" : "İşleyiş",
+        "language" : "tr"
+      },
+      {
+        "copy" : "仕組み",
+        "language" : "ja"
+      },
+      {
+        "copy" : "So funktioniert es",
+        "language" : "de"
+      },
+      {
+        "copy" : "Как это работает",
+        "language" : "ru"
+      },
+      {
+        "copy" : "Como funciona",
+        "language" : "pt"
+      },
+      {
+        "copy" : "How it works",
+        "language" : "en"
+      },
+      {
+        "copy" : "Come funziona",
+        "language" : "it"
+      },
+      {
+        "copy" : "试用指南",
+        "language" : "zh-Hans"
+      },
+      {
+        "copy" : "Comment ça marche",
+        "language" : "fr"
+      },
+      {
+        "copy" : "이용 안내",
+        "language" : "ko"
+      },
+      {
+        "copy" : "Cómo funciona",
+        "language" : "es"
+      },
+      {
+        "copy" : "運作方式",
+        "language" : "zh-Hant"
+      }
+    ],
+    "subscription_index_3" : 0,
+    "monetization--default--free_trial_cell_should_highlight_free_trial" : true,
+    "intro_subscription_id_3_secondary" : "com.path36.SpliceFree.1y_t100_2w",
+    "new_transition_icon" : true,
+    "watermark_subscription_index_checkbox" : 1,
+    "watermark_subscription_index_3" : 6,
+    "monetization--project_tapped_trigger--variant_1--styles" : [
+      "comparison"
+    ],
+    "monetization--pro_badge_tapped_trigger--comparison_style--subtitle_copy" : [
+      {
+        "copy" : "No commitments, cancel anytime.",
+        "is_fallback" : true,
+        "language" : "en"
+      },
+      {
+        "copy" : "Aucun engagement, annulez à tout moment.",
+        "is_fallback" : false,
+        "language" : "fr"
+      },
+      {
+        "copy" : "Keine Verpflichtungen, jederzeit kündbar.",
+        "is_fallback" : false,
+        "language" : "de"
+      },
+      {
+        "copy" : "Nessun impegno, cancella quando vuoi.",
+        "is_fallback" : false,
+        "language" : "it"
+      },
+      {
+        "copy" : "Sin compromiso, cancela cuando quieras.",
+        "is_fallback" : false,
+        "language" : "es"
+      },
+      {
+        "copy" : "いつでもキャンセルできます。",
+        "is_fallback" : false,
+        "language" : "ja"
+      },
+      {
+        "copy" : "약정이 없으며, 언제든지 취소 가능합니다.",
+        "is_fallback" : false,
+        "language" : "ko"
+      },
+      {
+        "copy" : "Sem compromissos, cancele quando quiser.",
+        "is_fallback" : false,
+        "language" : "pt"
+      },
+      {
+        "copy" : "Никаких обязательств, отмена в любое время.",
+        "is_fallback" : false,
+        "language" : "ru"
+      },
+      {
+        "copy" : "Taahhüt yok, istediğiniz zaman iptal edin.",
+        "is_fallback" : false,
+        "language" : "tr"
+      },
+      {
+        "copy" : "无需承诺，可随时取消",
+        "is_fallback" : false,
+        "language" : "zh-hans"
+      },
+      {
+        "copy" : "無需承諾，可隨時取消。",
+        "is_fallback" : false,
+        "language" : "zh-hant"
+      }
+    ],
+    "free_trial_enabled" : false,
+    "new_badges" : [
+      "main_editor_tutorial_button",
+      "transform to overlay button",
+      "mask button",
+      "overlay",
+      "filters button",
+      "volume button",
+      "music",
+      "font button"
+    ],
+    "monetization--default--comparison_style--live_chat_configuration" : "none",
+    "monetization--project_tapped_trigger--variant_1--comparison_style--subscriptions" : [
+      "com.path36.SpliceFree.1y_t100",
+      "com.path36.SpliceFree.1m_t20",
+      "com.path36.SpliceFree.1w_t6"
+    ],
+    "apple_affiliate_token" : "1010l32L8",
+    "test_pitch" : {
+      "add_effect" : "filters",
+      "item_masks" : "masks",
+      "add_music" : "musics"
+    },
+    "monetization--default--styles" : [
+
+    ],
+    "splice_awards_title_copy" : [
+      {
+        "copy" : "Want a GoPro® HERO9®?",
+        "language" : "en"
+      }
+    ],
+    "subscription_selection_kind" : "comparison",
+    "snapchat_caption" : "\"\"",
+    "monetization--default--should_show_price_description" : true
+  },
+  "force_updater" : {
+    "suggested_build_version" : "0.0.0",
+    "suggested_update_frequency" : 0,
+    "action" : "do_nothing"
+  },
+  "legal_notifications" : {
+    "to_notify_privacy_policy" : false,
+    "to_notify_terms_of_service" : false
+  },
+  "products" : {
+    "consumables" : [
+
+    ],
+    "subscriptions" : [
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t6",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t6_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t4",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t4_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t20",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t20_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t60",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t60_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t80",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t80_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t100",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t100_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t6_3d",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.3m_t60",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.3m_t60_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.6m_t70",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.6m_t70_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t6_intro",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t10_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t14_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t10",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t10_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t14",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t14_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t6_2w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t22",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t22_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t26",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t26_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t30",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t30_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t8",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t8_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t2",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t2_1w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t100_2w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t20_2w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t100_1m",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t20_1m",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t6_1m",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t4_2w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t8_2w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t8",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t26",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t120_2w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t120",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t10_2w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1w_t10",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t30",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1m_t34",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t130",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t130_2w",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t150",
+        "features" : [
+          "unlock"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.path36.SpliceFree.1y_t150_2w",
+        "features" : [
+          "unlock"
+        ]
+      }
+    ],
+    "non_consumables" : [
+
+    ]
+  }
+}
+$done({body: JSON.stringify(obj)});
