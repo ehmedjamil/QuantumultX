@@ -1,0 +1,481 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "force_updater": {
+    "suggested_build_version": "0.0.0",
+    "suggested_update_frequency": 0,
+    "action": "do_nothing"
+  },
+  "legal_notifications": {
+    "to_notify_privacy_policy": false,
+    "to_notify_terms_of_service": false
+  },
+  "me": {
+    "active_subscriptions_ids": [
+      "fontskeyboard.font.1w_t4_1w"
+    ],
+    "non_consumables_ids": [],
+    "is_spooner": false,
+    "privacy_notice": {
+      "last_acknowledged_version": "1.0.0",
+      "is_at_least_16": "unknown",
+      "required_consents": []
+    },
+    "terms_of_service": {
+      "last_accepted_version": "1.0.0"
+    },
+    "unique_id": "A8CC5F0A-4A52-4FE6-89F3-DBADE8711A68"
+  },
+  "products": {
+    "consumables": [],
+    "non_consumables": [
+      {
+        "product_id": "I.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "J.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "L.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "M.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "N.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "O.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "P.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "Q.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "R.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "S.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "T.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "U.com.fontskeyboard.font",
+        "status": "APPROVED"
+      },
+      {
+        "product_id": "V.com.fontskeyboard.font",
+        "status": "APPROVED"
+      }
+    ],
+    "subscriptions": [
+      {
+        "product_id": "SA.com.fontskeyboard.font",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "SB.com.fontskeyboard.font",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "fontskeyboard.font.1w_t4_1w",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "fontskeyboard.font.1w_t4",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "fontskeyboard.font.1w_t2_1w",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "fontskeyboard.font.1w_t2",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "fontskeyboard.font.1w_t4_3d",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "fontskeyboard.font.1w_t6_1w",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "fontskeyboard.font.1w_t6",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "fontskeyboard.font.1w_t8_1w",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "fontskeyboard.font.1w_t8",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "fontskeyboard.font.1w_t10_1w",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      },
+      {
+        "product_id": "fontskeyboard.font.1w_t10",
+        "status": "APPROVED",
+        "features": [
+          "unlock"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "__experiments__": {
+      "block_non_functioning_fonts": 1,
+      "design_parity_v1": 0,
+      "fonts_persistence_across_keyboard_sessions_simplified": 1,
+      "keyboard-usage-metrics-sampling": 1,
+      "more_aggressive_paywall_cta_noFT": 0,
+      "onboarding_simplified_setup_idfa_after_paywall": 0,
+      "paywall_benefits_plus_checkbox": 1,
+      "price_tiers_and_pass": 0,
+      "promotion_on_paywall": 2,
+      "push_notification_2": 4,
+      "share_button_relocation": 2,
+      "social_media_preview_instagram_v1": 1,
+      "switch_off_sticker_fonts": 0,
+      "typing_assistant_emoji_suggestions": 1,
+      "typing_assistant_next_word_prediction": 0,
+      "typing_assistant_on_off_test": 2,
+      "typing_assistant_word_completions": 0,
+      "casual_game_fake_door_multiple_games": 5
+    },
+    "__identity__": {
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6ImY1YWVmMWQ0ODg2YjQwZDY4MTIzZTk5OWQ4YWY5ZDljIn0.eyJwYXlsb2FkIjp7ImJhY2tlbmRfaWQiOiJBOENDNUYwQS00QTUyLTRGRTYtODlGMy1EQkFERTg3MTFBNjgiLCJ1c2VyX2lkIjoiN0JGNjIzMDctNzYzNS00MDM0LTk3RjktNDUxMUNBN0E2QTlFIiwiaXNfZnJlZSI6ZmFsc2UsImlzX3Nwb29uZXIiOmZhbHNlLCJpc19zdWJzY3JpYmVkIjp0cnVlLCJjdXJyZW50X2luc3RhbGxhdGlvbl90aW1lIjoiMjAyMi0wOC0wOVQxOToyMDozNCswMDowMCIsImZpcnN0X2luc3RhbGxhdGlvbl90aW1lIjoiMjAyMi0wOC0wOVQxOToyMDozNCswMDowMCIsInByaXZhY3lfcG9saWN5Ijp7Imxhc3RfYWNrbm93bGVkZ2VkX3ZlcnNpb24iOiIxLjAuMCJ9LCJzZXR0aW5ncyI6e319LCJpc3MiOiJvcmFjbGUyIiwiaWF0IjoxNjYwMDcyODY2LCJuYmYiOjE2NjAwNzI4NjYsImV4cCI6MTY2MDE1OTI2Nn0.3cto7V7CiNjC_7VXAVSLEbvzfiSjBNjM8k1IeXluds4",
+      "expiration": "2023-08-10T19:21:06.162198+00:00"
+    },
+    "__is_baseline__": false,
+    "__is_free__": false,
+    "__is_testflight__": false,
+    "__min_required_build_version__": "0.0.0",
+    "__privacy_notice_url__": "https://support.bendingspoons.com/privacy.html?app=1454061614&version=1.0.0",
+    "__privacy_notice_version__": "1.0.0",
+    "__privacy_policy_url__": "https://support.bendingspoons.com/privacy.html?app=1454061614&version=1.0.0",
+    "__privacy_policy_version__": "1.0.0",
+    "__terms_of_service_effective_date__": "2021-04-02T12:00:00+00:00",
+    "__terms_of_service_url__": "https://support.bendingspoons.com/tos.html?app=1454061614&version=1.0.0",
+    "__terms_of_service_version__": "1.0.0",
+    "review_skip_survey": true,
+    "exp_typing_assistant_version": "typing_assistant",
+    "should_show_attribution_survey": true,
+    "nps_timing": [],
+    "next_word_prediction_enabled": false,
+    "referrals_delay_minutes": 0,
+    "autocorrect_rwe_automatic_correction_threshold": 1,
+    "exp_contact_support_integration": "support_implemented",
+    "paywall_cta_trial_experience": "control",
+    "exp_paywall_close_button": "control",
+    "__encryption_public_key__": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6WMNkl4avAdHhYGc20hq\n8DcVtWanEtvuzM7g80Pe8Tv+eyrGyO1+XrgOUu7FRW2TFAl1q1r+3Uls0Y4Xyevi\n1F52DlSrKUJ84fpHIlhMhG8fGKTtAEOZ/CeSj4eUIjGqZe79/BAsEs1A5TZEKdlw\n24oeuMklhCeJ09Im/cU5FQJ18f6Ew8Dqmp7lLKsXoUA8hhBAPbcN7cb4cX6pvNWC\n+alZ9yX2sm4gs3cqjHPsLIEptJkaR469ZcSxqbBNtduS+DMRyhVD+M9ekjdv6aaE\nmRuFumWRtLtGvL9QfyOvTQPsp4eI/O4iZUH7A/W9L67WiYWDPhyknGd7fjIaEedS\n5wIDAQAB\n-----END PUBLIC KEY-----",
+    "exp_monetization_checkbox_notrial_product_id": "fontskeyboard.font.1w_t4",
+    "keyboard_gifs_is_tutorial_enabled": true,
+    "automatic_trial_length_hours": 0,
+    "should_persist_font": true,
+    "first_font_shuffling_enabled": false,
+    "emoji_share_function": "https://www.fontskeyboard.com/share",
+    "is_custom_unicode_font_enabled": false,
+    "exp_rewarded_ads_loading_timeout_seconds": 25,
+    "exp_automatic_keyboard_switch_timer_seconds": 10,
+    "share_button_url": "https://www.fontskeyboard.com/share",
+    "share_button_relocation_experience": "keyboardIcon",
+    "push_notifications_experience": "first_immediately",
+    "stickers_are_enabled": true,
+    "exp_referrals_fonts_list": [],
+    "new_symbols_categories_monetization": "new_categories_free",
+    "exp_autocorrectv2_1_chance": {
+      "control": 1,
+      "treatment": 0
+    },
+    "soft_trigger_factor": 10,
+    "notification_bar_font": false,
+    "exp_new_regular_fonts_1": "all_free",
+    "emojis_frequently_used_enabled": true,
+    "typing_assistant_rwe_detection_threshold": 0.4,
+    "exp_rewarded_ad_unlocked_font_duration_minutes": 60,
+    "exp_keyboard_themes_section": "demo_keyboard",
+    "app_home_layout": "control",
+    "autocorrect_rwe_detection_threshold": 1,
+    "secret_code_enabled": false,
+    "casual_game_experience": "hangman_fake_door",
+    "design_parity_v1_enabled": false,
+    "exp_referrals_unlock_all": false,
+    "exp_rewarded_ads_enabled": false,
+    "exp_paywall_button_animation": "control",
+    "min_time_between_requests": 180,
+    "emoji_grid_enabled": false,
+    "next_word_prediction_timeout": 0,
+    "is_text_art_enabled": false,
+    "exp_is_keyboard_compact_view_enabled_by_default": false,
+    "exp_referrals_required_shares": 3,
+    "social_media_preview_instagram_enabled": false,
+    "exp_automatic_keyboard_switch_enabled": false,
+    "test_paywall_string": "test2",
+    "typing_assistant_rwe_automatic_correction_threshold": 0.9,
+    "ff_keyboard_themes_section": true,
+    "exp_sets_shuffling_experience": "control_all_free",
+    "typing_assistant_rwe_enabled": false,
+    "hard_trigger_factor": 1,
+    "sticker_fonts_trial_length_hours": 0,
+    "onboarding_keyboard_setup_experience": "idfa_after_paywall",
+    "block_non_functioning_fonts_enabled": true,
+    "max_requests_per_version": 5,
+    "exp_referrals_link": "https://www.fontskeyboard.com/referral",
+    "should_track_font_switch_metrics": true,
+    "exp_autocorrectv2_1_live": false,
+    "exp_rewarded_ads_keyboard_theme_unlocked_with_ads": 0,
+    "typing_assistant_enabled": true,
+    "exp_is_new_keyboard_UI_enabled": true,
+    "clipboard_trending_text": [
+      "😅⃤...Bet you don't have this emoji 😅⃤....",
+      "ⱧØⱠĐØ₦ ✋",
+      "🆂🅻🅰🆃🆃 🧛",
+      "ꪶꪮꪜꫀ ꪗꪮꪊ ❤️️",
+      "𝘐'𝘮 𝘰𝘯 𝘮𝘺 𝘸𝘢𝘺 😂🥰️",
+      "爪丨丂丂 ㄚㄖㄩ",
+      "𝟝𝟝𝟝𝟝𝟝𝟝𝟙𝟚𝟛𝟜",
+      "ⵊ MⵊSS THE RAGE❕❓",
+      "WE DON’T TALK ABOUT 🅑🅡🅤🅝🅞",
+      "WHY DID I TALK ABOUT 🅑🅡🅤🅝🅞 (ᗒᗣᗕ)՞",
+      "ᏕᎻᎬᎬᏕᎻ",
+      "SAY👹YOU😩ARE😍MY🥴BAKA🥺",
+      "👹BRING👹DOWN👹THE👹HOUSE👹OF👹GOD",
+      "H̆̈Ă̈H̆̈Ă̈H̆̈Ă̈H̆̈Ă̈H̆̈Ă̈H̆̈Ă̈😂😂",
+      "Boi🐿what🐿da🐿hell🐿boi",
+      "What🥶You🥵Know🥶About🥵 Rolling 🥶Down🥵In🥶The🥵Deep🥶",
+      "I am Josè Mourinho",
+      "𝑜𝑚𝑔 𝑠𝑙𝑎𝑦 💅🏼💅🏼",
+      "🚫🧢",
+      "𝒔𝒍𝒂𝒚 𝒒𝒖𝒆𝒆𝒏 👑",
+      "𝔸𝕝𝕝 𝕠𝕗 𝕥𝕙𝕖𝕤𝕖 𝕕𝕚𝕒𝕞𝕠𝕟𝕕𝕤 𝕥𝕙𝕖𝕪 𝕔𝕠𝕤𝕥 💎💎",
+      "stop the 🅒🅐🅟 🧢",
+      "Crop",
+      "He's a 🔟 but...",
+      "She’s a 🔟 but…",
+      "𝕍𝕚𝕓𝕖 𝕔𝕙𝕖𝕔𝕜 ✅",
+      "𝚗𝚘𝚝𝚑𝚒𝚗𝚐 𝚝𝚘 𝚜𝚎𝚎 𝚑𝚎𝚛𝚎 👀",
+      "s⍴іᥣᥣ 𝗍һᥱ 𝗍ᥱᥲ ☕",
+      "𝗪𝗜𝗚 𝗦𝗡𝗔𝗧𝗖𝗛𝗘𝗗 😮😮",
+      "𝐇𝐨𝐭 𝐠𝐢𝐫𝐥 𝐬𝐮𝐦𝐦𝐞𝐫",
+      "𝐩𝐫𝐞𝐭𝐞𝐧𝐝𝐬 𝐭𝐨 𝐛𝐞 𝐬𝐡𝐨𝐜𝐤𝐞𝐝",
+      "ᴋɪɴᴅᴀ sᴜs",
+      "red flag 🚩🚩🚩",
+      "green flag 🟢🟢🟢",
+      "F͟i͟t͟ c͟h͟e͟c͟k͟ 💪🏼",
+      "Boi🐀what 🐀the🐀hell🐀",
+      "what 😼 in 😼 the 😼 hell 😼 you 😼 doin 😼",
+      "ᗪᗴᑭᖇᗴᔕᔕI ᔕᑭᗩᘜᕼᗴTTI 🍝",
+      "𝙜𝙖𝙨𝙡𝙞𝙜𝙝𝙩💡 𝙜𝙖𝙩𝙚𝙠𝙚𝙚𝙥 🤐 𝙜𝙞𝙧𝙡𝙗𝙤𝙨𝙨 👧🏽",
+      "𝐅𝐞𝐫𝐚𝐥 𝐠𝐢𝐫𝐥 𝐬𝐮𝐦𝐦𝐞𝐫",
+      "🄲🄸🅃🅈 🄱🄾🅈🅂🅂🅂 👨🏼‍🤝‍👨🏻👨🏼‍🤝‍👨🏻",
+      "ʏᴏᴜ’ʀᴇ ɴᴏᴛ ᴘᴜsʜɪɴɢ 🅿️",
+      "𐌁𐌓𝖴𝖴𝖴𝖴𐋏👊🏼👊🏼",
+      "🅂🅃🄾🄿 🛑",
+      "S⃠T⃠O⃠P⃠",
+      "i̾c̾k̾🤢🤢",
+      "𝒦𝒶𝓇ℯ𝓃 energy",
+      "𝖿ᥱrᥲᥣ 🐆",
+      "𝕞𝕪 𝔾 💎",
+      "C̾H̾A̾D̾😎",
+      "αղԃ Ӏ ƠƠƤ",
+      "₩",
+      "Ⱡ",
+      "₣",
+      "ᔕIᗰᑭ",
+      "🅞🅑🅥🅢",
+      "❌🅿️",
+      "🅿️",
+      "fr",
+      "W͜͡e͜͡ p͜͡i͜͡m͜͡p͜͡i͜͡n͜͡",
+      "ǝɹn︎s︎s︎ǝɹd︎o︎u︎︀#",
+      "✨✨𝓜𝓪𝓲𝓷 𝓬𝓱𝓪𝓻𝓪𝓬𝓽𝓮𝓻 ✨✨",
+      "never been caught ˡᵃᶜᵏⁱⁿᵍ 💦",
+      "bro was ˡᵃᶜᵏⁱⁿᵍ",
+      "🏠 Living rent free in my head 🏠",
+      "Hey ρ︎𝓔︎𝐓︎εⓇ",
+      "ꋬ ꒐ ꓄ ꋬ ?",
+      "₲Ʉ₵₵ł",
+      "How yeat bells be hittin:"
+    ],
+    "typing_assistant_test_performance_kind": "computation_only",
+    "exp_push_notifications_validation_notification_permission_request": false,
+    "typing_assistant_completions_enabled": false,
+    "limited_time_offer_product_id": "control",
+    "exp_monetization_benefits_product_id_string": "fontskeyboard.font.1w_t4_1w",
+    "gifs_search_button_type": "small_search_bar",
+    "rewarded_ads_unlocked_font_duration_minutes": 60,
+    "rewarded_ads_required_to_unlock_font_experience": "1_ad_old_UI",
+    "sticker_fonts_is_trial_overlay_dismissable": false,
+    "review_show_native_prompt_chance": 0.5,
+    "exp_automatic_keyboard_switch_experience": "control",
+    "exp_rewarded_ads_required_to_unlock_font": 1,
+    "gifs_number_of_tracks": 2,
+    "rewarded_ads_ui_elements": "control",
+    "exp_fonts_persistence_across_keyboard_sessions": "no_persistence",
+    "exp_push_notifications_validation_notification_copy_group": "none",
+    "themes_menu_experience": "rounded_rectangular_cells",
+    "exp_keyboard_button_color": "control",
+    "exp_attribution_survey_experience": "control",
+    "exp_user_panel_link": "https://discord.gg/X4fpzj4zym",
+    "is_clipboard_enabled": true,
+    "__encryption_key_id__": "53bfd4440016c",
+    "fonts_genie_experience": "control",
+    "exp_monetization_checkbox_trial_product_id_string": "fontskeyboard.font.1w_t4_1w",
+    "gifs_is_scroll_vertical": false,
+    "exp_attribution_survey_shown": false,
+    "emoji_search_enabled": false,
+    "keyboard_gifs_is_enabled": true,
+    "free_sticker_fonts_experience": "someFree",
+    "exp_paywall_button_color": "control",
+    "rewarded_ads_keyboard_theme_unlocked_with_ads": 0,
+    "surveys_cooldown_period": 1209600,
+    "custom_background_themes_experience": "custom_bkg_themes_enabled",
+    "change_font_existing_copy_is_enabled": true,
+    "is_sticker_fonts_lock_after_creation_process": false,
+    "are_sticker_fonts_enabled": true,
+    "onboarding_app_showcase_experience": "control",
+    "exp_monetization_checkbox_trial_product_id": "fontskeyboard.font.1w_t4_1w",
+    "ff_attribution_survey": true,
+    "ff_rewarded_ads": false,
+    "exp_monetization_checkbox_notrial_product_id_string": "fontskeyboard.font.1w_t4",
+    "exp_keyboard_cta": "control",
+    "autocorrect_automatic_correction_threshold": 0,
+    "exp_monetization_experience_string": "Benefits",
+    "new_symbols_enabled": true,
+    "exp_attribution_survey_v2_experience": "default_experience_v1_loc",
+    "rewarded_ads_daily_pass_automatic_trial_duration_minutes": 0,
+    "__encryption_algorithm__": "RSA2048PKCS1",
+    "exp_rewarded_ads_time_after_install_minutes": 1440,
+    "exp_referrals_paywall_shown": false,
+    "keyboard_gifs_gif_experience": "not_enabled",
+    "surveys_list": [],
+    "exp_monetization_paywall_group_v1": "Inverted Checkbox",
+    "new_themes_in_app_enabled": false,
+    "typing_assistant_emoji_suggestions_enabled": true,
+    "notification_bar_survey": false,
+    "is_new_fonts_order_enabled": false,
+    "social_media_preview_instagram_type": "enabled",
+    "exp_new_ui": "not_enabled",
+    "exp_sets_shuffling_fonts_list": [
+      "typewriter",
+      "outline",
+      "boldSerif",
+      "boldItalicSerif",
+      "italicSerif",
+      "tiny",
+      "script",
+      "scriptBold",
+      "tinier",
+      "comic",
+      "boldSans",
+      "boldItalicSans",
+      "italicSans",
+      "Sans",
+      "circleWhite",
+      "circleBlack",
+      "gothic",
+      "gothicBold",
+      "upsideDown",
+      "clouds",
+      "happy",
+      "sad",
+      "squareWhite",
+      "squareBlack",
+      "squareDashed",
+      "andalucia",
+      "manga",
+      "stinky",
+      "bubbles",
+      "underline",
+      "ladyBug",
+      "rays",
+      "birds",
+      "slash",
+      "stop",
+      "skyline",
+      "arrows",
+      "runes",
+      "strike"
+    ],
+    "premium_icon_regular_fonts_experience": "star",
+    "exp_show_user_panel_acquisition_flow": false,
+    "exp_monetization_tbp_product_id": "SA.com.fontskeyboard.font",
+    "exp_monetization_notifications_product_id_string": "fontskeyboard.font.1w_t4_1w",
+    "ff_keyboard_refactor": true,
+    "promotion_on_paywall_experience": "hurry_up_no_discount",
+    "exp_referrals_host_apps": [
+      "com.burbn.instagram",
+      "com.toyopagroup.picaboo",
+      "net.whatsapp.WhatsApp",
+      "com.apple.AppStore",
+      "com.google.ios.youtube",
+      "com.apple.mobilephone",
+      "com.apple.mobilenotes",
+      "com.atebits.Tweetie2",
+      "com.apple.springboard",
+      "jp.naver.line",
+      "com.apple.MobileSMS",
+      "com.roblox.robloxmobile",
+      "com.zhiliaoapp.musically",
+      "ph.telegra.Telegraph",
+      "com.facebook.Messenger",
+      "com.hammerandchisel.discord"
+    ]
+  }
+}
+$done({body: JSON.stringify(obj)});
